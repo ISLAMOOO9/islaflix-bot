@@ -16,18 +16,29 @@ from urllib3.exceptions import InsecureRequestWarning
 
 # تحديد المسار الحقيقي والثابت للمجلد الذي يوجد فيه السكربت تلقائياً
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+print(f"[DEBUG] Base Directory: {BASE_DIR}")
 
-# فك ضغط مجلد الكوكيز تلقائياً إذا وُجد ملف cookies.zip ولم يتم فكه مسبقاً
+# فك ضغط مجلد الكوكيز تلقائياً وتتبع العملية
 COOKIES_ZIP = os.path.join(BASE_DIR, "cookies.zip")
 COOKIES_DIR = os.path.join(BASE_DIR, "cookies")
 
-if os.path.exists(COOKIES_ZIP) and not os.path.exists(COOKIES_DIR):
+if os.path.exists(COOKIES_ZIP):
+    print(f"[DEBUG] Found cookies.zip at: {COOKIES_ZIP}")
+    if not os.path.exists(COOKIES_DIR):
+        os.makedirs(COOKIES_DIR, exist_ok=True)
     try:
         with zipfile.ZipFile(COOKIES_ZIP, 'r') as zip_ref:
             zip_ref.extractall(BASE_DIR)
-        print("Cookies zip extracted successfully!")
+        print("[DEBUG] Cookies zip extracted successfully!")
     except Exception as e:
-        print(f"Failed to extract cookies.zip: {e}")
+        print(f"[ERROR] Failed to extract cookies.zip: {e}")
+else:
+    print(f"[WARNING] cookies.zip not found at {COOKIES_ZIP}")
+
+# التأكد من إنشاء المجلدات إذا لم تكن موجودة
+os.makedirs(COOKIES_DIR, exist_ok=True)
+VIP_COOKIES_DIR = os.path.join(BASE_DIR, "vipcookies")
+os.makedirs(VIP_COOKIES_DIR, exist_ok=True)
 
 # التوكن الخاص ببوتك على تيليجرام
 BOT_TOKEN = "8282364189:AAHPugzFqjsQDMzznap8jgYDyoq4nIELOms"
@@ -36,8 +47,6 @@ BOT_TOKEN = "8282364189:AAHPugzFqjsQDMzznap8jgYDyoq4nIELOms"
 ADMIN_ID = 0  
 VIP_IDS = []
 
-# ربط المجلدات والملفات بالمسار الثابت لضمان عدم ضياعها أو فقدانها
-VIP_COOKIES_DIR = os.path.join(BASE_DIR, "vipcookies")
 USERS_FILE = os.path.join(BASE_DIR, "users.txt")
 DB_FILE = os.path.join(BASE_DIR, "bot_limits.db")
 API_URL = "https://ios.prod.ftl.netflix.com/iosui/user/15.48"
@@ -86,7 +95,6 @@ def check_user_limit(user_id):
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
     
-    # فترة الحماية 30 دقيقة
     thirty_mins_ago = (datetime.now() - timedelta(minutes=30)).isoformat()
     cursor.execute("DELETE FROM user_claims WHERE claim_time < ?", (thirty_mins_ago,))
     conn.commit()
@@ -95,7 +103,6 @@ def check_user_limit(user_id):
     claims = cursor.fetchall()
     conn.close()
     
-    # الحد الأقصى الجديد أصبح 10 حسابات
     if len(claims) >= 10:
         oldest_str = claims[0][0]
         oldest_claim_time = datetime.fromisoformat(oldest_str)
@@ -191,9 +198,14 @@ def get_total_users():
 
 def get_stock_count(target_dir):
     if not os.path.exists(target_dir):
-        os.makedirs(target_dir)
         return 0
-    files = [f for f in os.listdir(target_dir) if f.endswith(".txt")]
+    # فحص شامل حتى لو كانت الملفات داخل مجلد فرعي بالخطأ
+    files = []
+    for root, dirs, filenames in os.walk(target_dir):
+        for f in filenames:
+            if f.endswith(".txt"):
+                files.append(f)
+    print(f"[DEBUG] Stock count for {target_dir}: {len(files)} files found.")
     return len(files)
 
 def parse_netscape_cookie_line(line):
@@ -286,16 +298,21 @@ def fetch_nftoken(cookie_dict):
 def get_working_cookie_and_token_sync(is_vip):
     target_dir = VIP_COOKIES_DIR if is_vip else COOKIES_DIR
     if not os.path.exists(target_dir):
-        os.makedirs(target_dir)
-
-    files = [f for f in os.listdir(target_dir) if f.endswith(".txt")]
-    if not files:
         return None, None
 
-    random.shuffle(files)
+    all_files = []
+    for root, dirs, files in os.walk(target_dir):
+        for f in files:
+            if f.endswith(".txt"):
+                all_files.append(os.path.join(root, f))
 
-    for filename in files:
-        file_path = os.path.join(target_dir, filename)
+    if not all_files:
+        print(f"[WARNING] No text files found in {target_dir}")
+        return None, None
+
+    random.shuffle(all_files)
+
+    for file_path in all_files:
         try:
             with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
                 raw_text = f.read()
@@ -552,28 +569,30 @@ async def manual_clean_cookies(callback: types.CallbackQuery):
         removed_count = 0
         for target_dir in [COOKIES_DIR, VIP_COOKIES_DIR]:
             if os.path.exists(target_dir):
-                files = [f for f in os.listdir(target_dir) if f.endswith(".txt")]
-                for filename in files:
-                    file_path = os.path.join(target_dir, filename)
-                    try:
-                        with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
-                            raw_text = f.read()
-                        cookie_dict = extract_cookie_dict(raw_text)
-                        if not cookie_dict:
-                            os.remove(file_path)
-                            removed_count += 1
+                for root, dirs, files in os.walk(target_dir):
+                    for filename in files:
+                        if not filename.endswith(".txt"):
                             continue
-                        
-                        token, _ = fetch_nftoken(cookie_dict)
-                        if not token:
-                            os.remove(file_path)
-                            removed_count += 1
-                    except Exception:
+                        file_path = os.path.join(root, filename)
                         try:
-                            os.remove(file_path)
-                            removed_count += 1
+                            with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+                                raw_text = f.read()
+                            cookie_dict = extract_cookie_dict(raw_text)
+                            if not cookie_dict:
+                                os.remove(file_path)
+                                removed_count += 1
+                                continue
+                            
+                            token, _ = fetch_nftoken(cookie_dict)
+                            if not token:
+                                os.remove(file_path)
+                                removed_count += 1
                         except Exception:
-                            pass
+                            try:
+                                os.remove(file_path)
+                                removed_count += 1
+                            except Exception:
+                                pass
         return removed_count
 
     removed_count = await asyncio.to_thread(background_clean)
