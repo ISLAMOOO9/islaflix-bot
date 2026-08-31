@@ -1,0 +1,36 @@
+Email: Jeff
+Profiles: Jeff, Enis, Cartoon, Mayang
+Country: MY
+Since: tháng 12 năm 2019
+
+Token: BgiQvuvcAxLCAaNuTBnW5X09fgIc0bOEpFvkeRHxTxDCs9AkrFBAx9TS8Jr6s8lnwujUaw80BTqiehjO8L70Q3RtIP6A/VRYjl9F0wU9N5GbZCWmnRmcI3NHx5EtxplaiQfEz5xGZyeTC7CBfPUdcLVEc25KwtPLNjn6XNeOa/KU43/8VgOXUdcNaIyseEQkexXKY5b6i5XGYOwJwzC/NO29f24i3yGlbNP9DQNJw2kTEje5gnDz6rnoYWGb1Ze/FdWod1tYiFS5jgaYGAYiDgoMMTjkMIEUPCojqGyd
+
+Direct Watch: https://netflix.com/?nftoken=BgiQvuvcAxLCAaNuTBnW5X09fgIc0bOEpFvkeRHxTxDCs9AkrFBAx9TS8Jr6s8lnwujUaw80BTqiehjO8L70Q3RtIP6A/VRYjl9F0wU9N5GbZCWmnRmcI3NHx5EtxplaiQfEz5xGZyeTC7CBfPUdcLVEc25KwtPLNjn6XNeOa/KU43/8VgOXUdcNaIyseEQkexXKY5b6i5XGYOwJwzC/NO29f24i3yGlbNP9DQNJw2kTEje5gnDz6rnoYWGb1Ze/FdWod1tYiFS5jgaYGAYiDgoMMTjkMIEUPCojqGyd
+
+Mobile Watch: To use mobile apps you need to copy the Direct Watch link and paste it to your mobile Chrome browser and enter. After you enter and open the account in the browser, change the link to https://netflix.com/unsupported. It will suggest to open the app; click that and it will direct you to the mobile app smoothly.
+
+TV Watch: https://netflix.com/tv2?nftoken=BgiQvuvcAxLCAaNuTBnW5X09fgIc0bOEpFvkeRHxTxDCs9AkrFBAx9TS8Jr6s8lnwujUaw80BTqiehjO8L70Q3RtIP6A/VRYjl9F0wU9N5GbZCWmnRmcI3NHx5EtxplaiQfEz5xGZyeTC7CBfPUdcLVEc25KwtPLNjn6XNeOa/KU43/8VgOXUdcNaIyseEQkexXKY5b6i5XGYOwJwzC/NO29f24i3yGlbNP9DQNJw2kTEje5gnDz6rnoYWGb1Ze/FdWod1tYiFS5jgaYGAYiDgoMMTjkMIEUPCojqGyd
+
+========================================
+       ORIGINAL DATA 
+========================================
+
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: jeffreysonesley@gmail.com
+– Verified: false
+– Profile: Mayang
+– Plan: Premium
+– Next billing: 5 tháng 9, 2026
+– Extra members: false
+– Country: MY
+– Payments: 1 | CC (VISA 2304)
+– Cookies: @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1791890252	nfvdid	BQFmAAEBENJffbt1CZUBZuj-sAJolDJgjjBo4a_OKqMAqy_TtSej02x7uXOTeF8T3utIXqvb8RT5WUvb-NHNLzHJ2mya3kql__MUmFiKy24ikELdbMhVjlQUvdHYUISDz3VyBlM6MZFZUNZMfRcs6wB-Hb_xrXoY
+.netflix.com	TRUE	/	TRUE	1814751303	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQJebD7B__EMCx7KTvK5AGQlQk1NzIrmqU.%26dt%3D1783215385894
+.netflix.com	TRUE	/	TRUE	1814751303	NetflixId	ct%3DBgjHlOvcAxK0A4ucmkQ7vnXYGSCsCbGCnUH_gFOUNimaNi4f0csJAZNgiVn8bTmPNprRE9_aevYZGpLhaDTm1kIjzMjR6hyukQJhr1tYVUUXl41u3Gx0uYcPiCMx89o25DwpzNToLsF9aztjHkWYf__Fi4ZDmtU-Q_5FCNIakSBhLzMVDVR4N_jyJ6JBMrd9RDEekuJdQUs3WmpcAlyh8m9RIglyk_Fq_Wf2VWotMXe3uQDvjFGczW3DaZWY5K-8uy_zfwldOcEgNVyqAkrdr9hxNSMimsTlgWRV9KBnm4i_ePAkjOuiLPtPmZyUZXANhjvxWEAqp7w0x7Iylczr-0cDuh66E9SbtqNHAeOrHD2V4Us-MZnaKlGaLI7kR8ZTTnLECetOuT7ddUE0plFk3HdA0NwybrtGpBTGEUJk2NeGfU-QeClatFmM8WUi2wsK9SD3wsvdWB8jrOYPUj9QQTqJ47btQZTopwMIDHKnwf29oSmpKHBDgU5tDVUZxdJQlq59Afl5t-Ao9ifyhjKruGlDTKYyYzQ9vuHbynYqrFiQHIe8GuLbP-RPgV_j38-bB2Lw-vBcHReJ3PKgWXgYBiIOCgzNYKYh-vIIEht0R_U.%26ch%3DAQEAEAABABRGdVKvfYPStJhvLFMiB6QSpKnBzyOSowg.%26v%3D3%26pg%3DQM5MLMOVKJGWJBGNZ32O2SXWWM
+.netflix.com	TRUE	/	FALSE	1814751305	OptanonConsent	isGpcEnabled=0&datestamp=Sun+Jul+05+2026+09%3A35%3A05+GMT%2B0800+(Malaysia+Time)&version=202604.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=42cfbb30-a4c7-43ee-895f-ba8ca294e5bc&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0
+--------------------------------------------------
+
