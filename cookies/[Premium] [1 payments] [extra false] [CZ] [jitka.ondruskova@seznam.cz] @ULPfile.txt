@@ -1,0 +1,21 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: jitka.ondruskova@seznam.cz
+– Verified: false
+– Profile: vojta
+– Plan: Premium
+– Next billing: September 22, 2026
+– Extra members: false
+– Country: CZ
+– Payments: 1 | CC (VISA 9944)
+– Cookies: @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1800887718	OptanonAlertBoxClosed	2026-01-25T14:35:18.782Z
+.netflix.com	TRUE	/	FALSE	1801051567	nfvdid	BQFmAAEBEHV104rD9O87R1baAFWgJQJg5uwx3jfB9-fsGtkBsHqcbLZsirOKmn8Z5NWB2vMzqDj016rlHVWuhivcDGrdIMyrzVpsCFe0UkOES-kU_-7JdenUC-achq3KiyhW5s_bD2KShsi7-sFpHgFXkXbVeY4O
+.netflix.com	TRUE	/	TRUE	1818105667	NetflixId	ct%3DBgjHlOvcAxKFBJi9svAHzFGbEnzJPJq5-AIZEedjyK57ujCb3sfAQo5WXrWMdVGHy4Wqi37JcqkjYJ2LQU89JGvyfuWBswe6fVW3tG-WCcGSQj9IP9mhCChziLXFk1slNzPkdkvhuHNJrwrHvMqfHngZpNSQi419Sz6zrW8UpiV7XYIs5cL12Gi5A5hJcG0F_oBC8oO2gu69l6JxvPuT-sNG-MzQ1kjrxt2xkgAn2CRhVVDjBvn-yKhDlcV0tCj5t4wNH8QhgD8Gf0Y7WGYPpTjQNSKYuBE3vPVmeenH-bazNu3p6MWC8Ms6cu4ysyLqLdqwawWjYSioNfLBoY4E9hIqBC6PHeU4OQbtcrhSEMpK_YFy-pAYPOU05oKMXWjeJmc95J1KAM9bHo1rXDloZVL92ohCQUMbkKDIPvzqCseFXjQS3khM7BvRgSMcxe_BJgyMWFIV51dlCz68PFYt1HNLebae-o8-IkMapYgn0H3OW6s3rdeRRJ0PAz6hKuKm86D8WULhaNRdFsRBNW4bQSSXihtP6MxPsUxZp6SOCBm0Aaz0-6QTdJpXNMijbBz-9eSPPs9_MNc0GvtnjUItP4vqtq8BY-Nm4cNK-dla9Euf7RDAtzgr5n9jzWxg-h8hBJyBe6np9A7ldc5O488oGGgLMUtx_yYDsaU3iEbccnhHfTUq0eOQeh1_u3sinvgYBiIOCgxQAblQ8-5aCg00S_o.%26ch%3DAQEAEAABABRrNc7fFwJNHJ1nuRy7Z1aobAFeaeod2uY.%26v%3D3%26pg%3D6YQV5BSJ5NDEVBJKNHF54F5SKM
+.netflix.com	TRUE	/	TRUE	1818105667	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQHXw71MKGDPfqnW3ZrRPH_brecDuMhY4U.%26dt%3D1786569667896
+.netflix.com	TRUE	/	FALSE	1818105700	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Aug+12+2026+22%3A21%3A40+GMT%2B0100+(GMT%2B01%3A00)&version=202604.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=e4e6b158-2e18-4e8e-9d7b-e4fa173abd0d&interactionCount=2&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1769351719158&AwaitingReconsent=false&intType=1&geolocation=CZ%3B80&prevHadToken=0&isDntEnabled=0
+.netflix.com	TRUE	/	FALSE	1794345699	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1794345699	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1794345699	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D

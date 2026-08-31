@@ -1,0 +1,21 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: valescaportela351@gmail.com
+– Verified: false
+– Profile: Monielly
+– Plan: Premium
+– Next billing: 30 de setembro de 2026
+– Extra members: false
+– Country: BR
+– Payments: 1 | CC (MASTERCARD 2032)
+– Cookies: TG : @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1809467518	OptanonAlertBoxClosed	2026-05-04T21:51:58.166Z
+.netflix.com	TRUE	/	FALSE	1809480150	nfvdid	BQFmAAEBEOAr1stbeAEcLCUMlSYnkVtgGDgIfiNAH7eppy73GWFwZNLoV2WL88rIN32V4vl18lSYTZk8JTooYsEzp5RmOTYCLBxNICJbo-NSo0LOXxSVR5LkiixB3AlBMGECaIooGZvkPtRKdP03PRXsqrnssk2_
+.netflix.com	TRUE	/	TRUE	1815084753	NetflixId	ct%3DBgjHlOvcAxKBBFIeqoHonx2_cNPEc4bExkYHJrBgMUYViaoA0UNWRf4j2GZTEAj-Sbp-t6ClhEIwmiByXYkxz83M13Vf26vV7MY_NVB_p9zXbVKk5qfhK8VmMN1zlnINqcda6axEz93U6ieCTxyPa2T9JfsaOlG9XnAmw_nXFlEnswZ1JdOibNaMLIkIsr-A9VrwBSR7GFCrfLEM2FLYC82mzCS4YYQHyql4jgSVnLc1s64f5obeI211BL5LTMDoFdKeNXPcU5rjQanqdmDstpWG0uz-WljIJk91wfgCveI5flEbclm3wxbixzg-1JFzh1ZxixODKaf79XefSnAmtGvlRCtjJEi4UCGB2kHQZIZpR1hlOZIu-wnS0YmCAwOwA-cnRZacRtQ2vovEJpX6USeGzk0N_DYwMD4867sVBZMZZ-mSURAVoPyjqyD_eEdMSMqttd6EWtN0TBD79GustiQEJM8h-gbV0YtlI2eATTY8PgP8SpBEk8SJd930fGP-GRgucruBik3VyzsQXXmua8qS5MucHChSNEyuScSkSRrr-5cbeTSNobRsPmZD3FSIgyqa37kBDDmmLyADZHea8WsEK_IDtu9ybwaA7CTbiHYld6nb1WFOLXAFVoB2clvR1eqTYEcHg49NqWcD_feCaeLt2QQWwpUZUWyefANwOL7yltDeuiEc3QtQ2hgGIg4KDMbPenQaAJjhliCZ7w..%26ch%3DAQEAEAABABRDEcPRRsJVAHnZovG6FpvELYUCSt3nLSQ.%26v%3D3%26pg%3DSVPMIWWVRVAPDE3C7FDVRIZ26U
+.netflix.com	TRUE	/	FALSE	1815084753	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Jul+08+2026+19%3A12%3A33+GMT-0300+(Hor%C3%A1rio+Padr%C3%A3o+de+Bras%C3%ADlia)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=bf9ec966-ed6d-4fc0-8f76-848993b80316&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&intType=3&crTime=1777931518604&geolocation=BR%3BSP
+.netflix.com	TRUE	/	TRUE	1815084753	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQqr0TTNjfBziRQxgCrDbpWI-H8bVHMfNI.%26dt%3D1783548753587
+.netflix.com	TRUE	/	FALSE	1791324753	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1791324753	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1791324753	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D

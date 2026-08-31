@@ -1,0 +1,22 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: leocarmo123hotmail@gmail.com
+– Verified: false
+– Profile: Pipit
+– Plan: Premium
+– Next billing: 17 September 2026
+– Extra members: false
+– Country: BR
+– Payments: 1 | CC (MASTERCARD 7473)
+– Cookies: TG : @ULPfile
+
+.netflix.com	TRUE	/	TRUE	1798833580	dsca	true
+.netflix.com	TRUE	/	FALSE	1806181546	nfvdid	BQFmAAEBEK1WIJt5aGJXrAjWgYHfqRhgjJAeAMvUH1yDXG_Uqi8M4BrzZwU-Dbu8wkI39Xg0pLuwinWPxPSRtyhh8CuAz-X5R6Cz2tMA2ZJchTgw0hu1WVhovyOFglGfLJdHszbzWlPHCvHLKzlZuNOgWvHHAh4O
+.netflix.com	TRUE	/	FALSE	1811799158	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Jun+01+2026+04%3A32%3A38+GMT%2B0700+(Waktu+Indonesia+Barat)&version=202604.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=4e35d6ff-0dc0-4d18-b9dc-54ca364fc906&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0
+.netflix.com	TRUE	/	TRUE	1815819966	NetflixId	ct%3DBgjHlOvcAxKBBJ6p7uwykOGgaCC9K5fQHPEWq5uJDTzF207-PRr8XRJ3qqAJC59K3BQsNwxhh7x619dEdMXIaZHX-rQPK4CMiJqSj__T6GI4vbQ7yozUmtF3Y1NoaOjV_M4kbgOivqQW_8dzxI6coL_i0mBi1Xw2CAvQSn2FWE7AUwntEstuVxhWIxg-BdoUEDOqPP04lzuEyrfBkuflRH1nRTBQXy1CW0xKZLkGis6TQOKrIhaNX8ZPD4tg_WqQXkCn19KVLeOWgHtl2sHWZA5rQPVKmE2GUKR_01PlpKMPLG-MMjt0p-LVF8b1k0BmRGCEPIoYv4cKe-RYcUiGLaH_4pcvK6QgwF1qxWKBWlky8QIjG7y-eGWqzajwQ-v4x2ti3yteJ7nQsbudmEPJ1AO3QF1zq1kejStHOoEnE7ucS3W28gsYaonHxBAe7HvB-jX66hbRIQ9n2M27uP6EsZ7_RDoSy9V6sF6Z6N71hhh6y_hHBu8A3NFB3YecqVTIykR5-_gdti9QRnmzgQI3n9y8RUOwvF5vE1-1Hp9Qz86NWmV5mN1iMXu4iSI7RZzXpW-j2i51ZzS6X9ICQkJ-WThU0dNkab8YpzwaHQCAKMRwloolSOS3NvNjCBGtqmOB_ureFgu1e0vCcxptWBqq3qV312QTiQ5RnNz4KQIrJbMkwDE7CAY_j3oaDRgGIg4KDGwABGz0o1fXySnMqg..%26ch%3DAQEAEAABABTyLlV_bISbGVs53hM51C4lPnkBGeDRlZY.%26v%3D3%26pg%3DEKHWPB5YL5A5RIKFGSSWXRUD4I
+.netflix.com	TRUE	/	TRUE	1815819966	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQcPNhlJRVmUyKb-gMGhhwXR-h9Y2NR8Co.%26dt%3D1784283966480
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	cef93235-43f7-4006-8f82-48baa419cc36
+.netflix.com	TRUE	/	FALSE	1792060091	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1792060091	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1792060091	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Atrue%7D%7D

@@ -1,0 +1,22 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: lealcatiucia15@gmail.com
+– Verified: false
+– Profile: Hygor
+– Plan: Premium
+– Next billing: 10 de setembro de 2026
+– Extra members: false
+– Country: BR
+– Payments: 1 | DC (MASTERCARD 6831)
+– Cookies: TG : @ULPfile
+
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	d8709d44-2f6c-4f7c-8cd0-5ae99ec3cc2e
+.netflix.com	TRUE	/	FALSE	1809928847	OptanonAlertBoxClosed	2026-05-10T06:00:47.530Z
+.netflix.com	TRUE	/	TRUE	1809929218	NetflixId	v%3D3%26ct%3DBgjHlOvcAxKUAwWrQCcmBPBZNhy0axVc-2Qn76S6LGf6DgjeIWxc811GhTpHVqo-qf3n9hoNMS1lB-kN396Cxe3X-Ru3u9I0ypVK0G2GSEeM0KnbQflXKU8NaxWgvvhqOzfSYpT2RXhoEaztUnN5hictQJImh87xrvadhVPbn-p3tuvdDnHczEEK18wnWLinw2wfWIqQecfCvHhBIbabBR887hoJfb0VcuK2ET9_-YNiAt-Krq66qx9477u11pxTom-dEkuolpNvJPMvdejXOGGxt-nyY9KED2ZPYXTTTmOnO3stWw7_Xril453si5rxVxhaX--1RCGR4Ru_6vkcnHH0oN6ynlI8DomRuILybQuRFJjWdiDII7PhSLSvu8UdOPv4VWRShwbNf3nCCFUB_v952ebcGzJP5taV9-iv_3RA4MUepPG2q3issLUz5i2za9WmWJivXm27Miy9uuiJKTq4uxWonZCaV_tBnsP_-_k9QUOmPdPNVvfYHjSb1qg7lUm5t3zXzBoHGJ3kSpkLWZSmxlm1jnqVemf9bUOeGAYiDgoM3q6JnTI35WV1zxbm%26pg%3D7WZCZPOLFFF5BD4PG2DVK67H2Q%26ch%3DAQEAEAABABTtX2YF9CrKtUYrOMBuCUsjxkLHolYnbC8.
+.netflix.com	TRUE	/	FALSE	1809929220	OptanonConsent	isGpcEnabled=0&datestamp=Sun+May+10+2026+03%3A07%3A00+GMT-0300+(Hor%C3%A1rio+Padr%C3%A3o+de+Bras%C3%ADlia)&version=202604.1.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=deac9554-9e1b-412f-8842-2518f1cf3403&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1778392847958&AwaitingReconsent=false&intType=3&geolocation=BR%3BRS
+.netflix.com	TRUE	/	TRUE	1809929218	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABSYr2wAhycLlefxTnjuoIjKwbA_J459k-E.%26dt%3D1778393214632
+.netflix.com	TRUE	/	FALSE	1790798572	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790798572	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1809929215	nfvdid	BQFmAAEBECQ80I5yKSbAtGFWCiquJclgFIdv912ElpY_CjLkLzBdgVHyZxzgCfI6g9wI_UI-wms5xh2xjKFV2aHu44vmXd92AMSiq85q_ms45NaVi9wbYOT3g3SqZzFqJV8sj_iJS_N7FGCuc4krMgPpGx7OmSXm
+.netflix.com	TRUE	/	FALSE	1790798572	profilesNewSession	0

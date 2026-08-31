@@ -1,0 +1,22 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: sabrinalex1253@gmail.com
+– Verified: false
+– Profile: Llex
+– Plan: Premium
+– Next billing: 18 de setembro de 2026
+– Extra members: false
+– Country: BR
+– Payments: 1 | CC (MASTERCARD 3480)
+– Cookies: @ULPfile Join
+
+.netflix.com	TRUE	/	FALSE	1800331932	OptanonAlertBoxClosed	2026-01-19T04:12:12.980Z
+.netflix.com	TRUE	/	FALSE	1800331946	nfvdid	BQFmAAEBEJfhXz421Un99OnfmOyTqJ5gr_j472vBFdN5tlcDrFqNqBK8YQzfbMxzazq5k55PCGJtuBWIGT7spStunk4Mt0dwhHP1QkFvgpPsRGLxS6UVq3FlHIJqkVXOCsGw6rD7qwELolnir1bFGKSlz3XZvTkK
+.netflix.com	TRUE	/	TRUE	1814813079	NetflixId	ct%3DBgjHlOvcAxKABB3TpO0goDkMKjo24aR-OHtWE9Y22e_XXf_erX9LQODgEPhpz_AmlQmfZmwCsL62eHF9a-KZkOuOaMIIVt1-rWJndSi2b3FjBrZ4s8y_QWSHDE-ksV8khI0s_nrftyVfXqWQTLofktHVjCbi8UmNMXRc-qB_Ex84QLGRFhx1IMEy0i4rs2xOv1kkcLiY8vgMefayirwcFLLtVOYrj2OstDfO5tBkhuB3MV05uoGABE0PtvjHidiVsRX5ZXsR1pFYs3CNOeJZ5kMtm9yTFGAjWMWMG-XtBt2i2XfpbgQLDtEydVYBjFkV2UX8qcmCKbx65CZ9Q9Q67GwTgR7zjCQf8ZteDMV_8SMr7SVNOzgdRg7CRA9aw58fOQbIeBjvy9Y7lZP05I4Tqv6Yivx7XR2pUl5pu59fGkVmKEBiHlyRXNeb_dCm-I_HkF18gqK-q_57XNu8NSwZqor7J0cn5Oda4xg-D86IfROmwY40BezMULDiON7kt26TA-3jxpo10CzbkAdqRA_mUPZvdr4s9MK4pgMzatPXbMaZW4anQ-O9GNFAjr1VGkNAVCsFzsJxa2FgjMMutv8aU9HYwK64BWcfqt5pL1zRVmInqM_wHQVgO-r_HZaivUB4QYMtF5klfMorqMFHYF3SCOtnF_Zf6T9GQ7hqi9bIYfBlWHkP9xYbgRbeGAYiDgoMpcK81x4aK_aYGPJ5%26ch%3DAQEAEAABABR-zYermb270JPKXnl6Yl1dEmfGvyzucWw.%26v%3D3%26pg%3DOUDBJDJVOFFHHBRUUKPBCGP6BI
+.netflix.com	TRUE	/	TRUE	1814813079	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQu6gRgpXggtGOtJcuzk4YM6GU3vQFVl08.%26dt%3D1783277081416
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	6ae90cae-7235-4445-90da-0d304f072bc6
+.netflix.com	TRUE	/	FALSE	1814845279	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Jul+06+2026+00%3A41%3A19+GMT-0300+(Hor%C3%A1rio+Padr%C3%A3o+de+Bras%C3%ADlia)&version=202604.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=fafad901-f4f3-4526-b194-75f92f25864c&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=3&crTime=1768795933484&geolocation=BR%3BDF&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0
+.netflix.com	TRUE	/	FALSE	1791085278	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1791085278	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1791085278	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D

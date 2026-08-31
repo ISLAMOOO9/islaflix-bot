@@ -1,0 +1,22 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: javiergallegosarteaga@gmail.com
+– Verified: false
+– Profile: Diego
+– Plan: Premium
+– Next billing: 12 de septiembre de 2026
+– Extra members: false
+– Country: CL
+– Payments: 1 | CC (VISA 2507)
+– Cookies: @ULPsub
+
+.netflix.com	TRUE	/	FALSE	1790798572	nfvdid	BQFmAAEBEJqBCzcd8VlkNnUFwqwkdOVgaHvSH7gmSTuJp397_Zz5Neq49xzL_XJW_8UqEX85Z0Ojdqr_VPWXVxSv7IdTMjG8XmZCPoZcl5DuiYwKUdnh8pLVVjWWTN7IesmCIdSnyt2qjiLHQmW_FCul8PrluflP
+.netflix.com	TRUE	/	FALSE	1790798572	NetflixId	v%3D3%26ct%3DBgjHlOvcAxKUA0Ze331bzK_vDWV01ESsOizUr6RyV_k_8IAgLsizTCw5VjYUdk_Hln19MTz63hF2t4BB7sEvyk6Ia9qTOEurupUPMwTJFGDQW2To7o4aKjhqQzSvVJ8oIZWwvvBrXvl5jl25__rRkkEcdVvkmxmup6Ig0sZgjEyHoUPXRfWWqGTaxbhvlDIkFhkFAmpUjfCeYuBYfx5sTsIN3WELcjRZjYgldCHP32uv8KamrooMEJVIJPaIdJcEmRRU3BAWXArVqy59TuAvtNHwmNLkvU5Bz9Xa8pm4l-5m_HUQnMhrkKHufxYqLaYsEdWx-SBy2Yf7Ws47acbuTFjKg6MTr1_mo_9Y0vATRA7-J4aT-ByTey8l-m38aWGLzWrv7f2RryPjpZigLN2lvs5wanhP0zfzBVnKRJXdocP4SExOAOiIkGZaj-GRhgwyVNPgRLhwrB2Z78ERE2V8Mi2QsxMsWtLDzBxNyISQppN94BMNkoQtRbkwiJd2OGQCPwHcWTkj9kRdZz6Zk9wL6H8eKhfcxUVpIBcKF3-1GAYiDgoMMv0UJNDSoKKzsDQQ%26pg%3DPAYJORU3CRBO5PNXQVJXRSMO3Y%26ch%3DAQEAEAABABSvL4Kj5ncnTCpOZuSGEZSZYcE8DkRkHSM.
+.netflix.com	TRUE	/	FALSE	1790798572	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Aug+19+2026+00%3A38%3A38+GMT-0400+(hora+est%C3%A1ndar+de+Chile)&version=202604.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=493d18e9-b9d0-4f4e-a88a-3280310a79fc&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0
+.netflix.com	TRUE	/	FALSE	1790798572	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQkgJPzO26UKjxCiinDDfBRu_2qwIQ3aTE.%26dt%3D1787114314279
+.netflix.com	TRUE	/	FALSE	1790798572	gsid	3f1fc7ef-da61-4644-b026-1dfdaff811f6
+.netflix.com	TRUE	/	FALSE	1790798572	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790798572	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790798572	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D
+.netflix.com	TRUE	/	FALSE	1790798572	profilesNewSession	0

@@ -1,0 +1,19 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: julienkyao@yahoo.fr
+– Verified: false
+– Profile: Kouassi
+– Plan: Premium
+– Next billing: 28 septembre 2026
+– Extra members: false
+– Country: CI
+– Payments: 1 | CC (VISA 9069)
+– Cookies: TG : @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1811257325	nfvdid	BQFmAAEBEBRXpn5eqb6XlabFxuxiJ-5g7gFPKNqc3We_s1f5iXZGYpeJ5hhqpu84sUoZOKWBV1Xbyc3fNcovThGV1m8S10WEY9R8VIvFLS_a_Lksfhgw9Q2jMKiUSFvYQmbFPp2JpaN0OibMrCfIefhsKcYqA8gH
+.netflix.com	TRUE	/	TRUE	1812485870	NetflixId	ct%3DBgjHlOvcAxK1A82siVJ-Wy5RLv8DGE3nwENXNB_f8ZKsDxDKn1Yt0lpuI87ezxwLirtVF9kbJCM70ogJDKX8P--04biNNmonr1M7otgfWQIe5YSAKJqYR1I6SPbqhQhQjFLcu0TDgoguXOs_9_loLGj1V09u7-epAK8yO9pdqRXP-2Szpe4nAjik5J_riwrm1_Df1szO9GObHkS4TFpL8A98sSFVQDfV4zFeTsmlC7W4KS0GYUCHr7oFdbo6XmjJI4YbRHaZAOCku4OEnm_ZoXuwOAbXs2NkcmYSeB_UmG0R0o6d27M_sY13azP3LOZ4HH152St1Bdm3syf26aSpEKmusQwrJEYlnnBrd4GsiW5GED3uggtgh9WZja5pffHwsCXct7alnZu8ahm8Zd7vqMzuLYcWL-gtU6Ett5ZD9Tz6SHyBkoMOkTIqBPGEzkGhxonzZ2ih8AthcOVsVyK3aFFi0ePQdZwgtG42_O78ET2yiYJ6wsR_-sGBE_NgDrlXdgx32jvM_3Xk0vBVJOe1UehyBFP9UANtMctLPNWmMe_gq-g5RUOO2upVHp05EHGcgiqy6xyCEbK6ZlBs4_k9GAYiDgoMUlQGI9ki_XJJAnFM%26ch%3DAQEAEAABABT8L0yrvvrO_BTE6N1gKejzlPa10kzhGME.%26v%3D3%26pg%3DNTOSSD247ZBALFJSN4T4W65LJY
+.netflix.com	TRUE	/	FALSE	1812485876	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Jun+08+2026+20%3A17%3A56+GMT%2B0000+(heure+moyenne+de+Greenwich)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=28a34050-7e4d-4a08-968e-089dedfe49af&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1779385056586&AwaitingReconsent=false
+.netflix.com	TRUE	/	TRUE	1812485870	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABRFPZ2L2oQKYlTaGGwAtoB2O8CwgBHFA4g.%26dt%3D1780949869448
+.netflix.com	TRUE	/	FALSE	1788725874	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1788725874	netflix-sans-normal-3-loaded	true

@@ -1,0 +1,21 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: associadosjd@gmail.com
+– Verified: false
+– Profile: Swairovsk
+– Plan: Premium
+– Next billing: 5 de setembro de 2026
+– Extra members: false
+– Country: BR
+– Payments: 1 | DC (VISA 2578)
+– Cookies: Telegram : @U L P f i l e
+
+.netflix.com	TRUE	/	FALSE	1814121887	OptanonAlertBoxClosed	2026-06-27T18:44:47.546Z
+.netflix.com	TRUE	/	FALSE	1814121893	nfvdid	BQFmAAEBEJcA7P5v6EV1FVrVe_K-guNg14Q6lzv5En0MU4wqJq92sYUm3CTZnhntV2iWL3pC8s4ZbK6RzfdoIbMzeXu3eYjj-K42fWnHtxYQGsh5cJGdkg2-iEdWxxI-Pit5SVc7bHjNBK8b_TKUdfnGj7cnIW8d
+.netflix.com	TRUE	/	FALSE	1814441882	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Jul+01+2026+08%3A38%3A02+GMT-0300+(Hora+padr%C3%A3o+de+Bras%C3%ADlia)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=b76fc463-f915-4aa5-92aa-99b1101da991&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&crTime=1782585887957&AwaitingReconsent=false&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&fclco=&intType=3&geolocation=BR%3BSP
+.netflix.com	TRUE	/	TRUE	1814902270	NetflixId	ct%3DBgjHlOvcAxLrA8Rj3yV0vbq1JYwKLQzgFN1zC2oZ3WRiSMwc4sjikFirL3ci9NBYFB-BdbEczvH8yTTmhKZkySCXD62Vpx6tz6vE1S9AaDIoUc7izXEcb7Po1mTyUgNZBxSVNg2rZgQ6LFQO4JuWzY2u4xpV3t0BEtTYLtfnK49jIBvrIqMBpblnon2zwVSU2_SqQhuG1XlLGnxVSbAxrk-Fz9DUO4zULvQrDMPuhAtXFnrC5eUvvwUVbY-_vZ7HBV5Y4cXSNvqtJ_k1N37fs31DuZhhKI8XI2iDcHYV2uhs0ga6_JOWfqaRFj53byupjVhJShqYS8rPe_zkzx-OiHyyQsGujwa3lzKXCCAiKq9tJ-2Sj9fGZ9tHPI50tqmJxLUM2K3Jkw9GlRQ3Om5uJmJlYgcIrIafg6oRN314fxpBqiZFAeHHxK6uIwViAXqAZU2qsMYGNkHbVKfAOwaxurQObtttdrTaAsp6KEU-jeGM1nlTsGrWbaSKTfMmSWV2U66Hc9bZlSZQsuHfzDvjGBahx50PUexKutC6GLsC3zvOEc_oK-VfHKKzQnGro6cWXzs3S5k21LIwNQonj723UnyTFiPjSncyFpPjn9Ak7iKXY4etaQ_eYOyBNbWPpyL3QYtFFawwBQivmzJk_HKrxYqnUTVSGAYiDgoMnwDZ35ePZ8M7r3_e%26ch%3DAQEAEAABABQtAQc8dXOlp8rVPra_bzmrvz7-T9g5KrY.%26v%3D3%26pg%3DZKZNEEH3Q5G7TLVWE3YGBO52XE
+.netflix.com	TRUE	/	TRUE	1814902270	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABTtcXufOMomo5p_LkOmjUlOFr5dz_BNVeg.%26dt%3D1783366269189
+.netflix.com	TRUE	/	FALSE	1791142270	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1791142270	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1791142270	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Atrue%7D%7D

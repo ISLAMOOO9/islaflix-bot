@@ -1,0 +1,21 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: ingrityfmelo33@gmail.com
+– Verified: false
+– Profile: Maycon
+– Plan: Premium
+– Next billing: 4 de setembro de 2026
+– Extra members: false
+– Country: BR
+– Payments: 1 | DC (MASTERCARD 2455)
+– Cookies: @ULPfile Join
+
+.netflix.com	TRUE	/	FALSE	1814094715	OptanonAlertBoxClosed	2026-06-27T11:11:55.312Z
+.netflix.com	TRUE	/	TRUE	1814096187	NetflixId	v%3D3%26ct%3DBgjHlOvcAxKaA-Xx-bIN9UfV3wZ90NOfbMUZW4EEHRxp34faBhL5qfKrHgEvSIbNqj0LCpIsU08DaY33fb8TPmt0Bzx9ZBdhfmIsZ48RzdQnEXpNIAmSUgLqvCP3q0vCWEem7BvioYhKTsM5ZJX3rD8JH4SYwhUedH0lnAkiziVcFh0Uvp3p8q-atMD4aZuHEv_Ij7lXdhkPiXYQHBWKysamnaKSPlUifRppM5dcKbfId_BIO0Ycnz2i9HcEq3YrbZ5UDgr2fBEobTItEBBboKi7Df9U5yN82mnY1zHFWVcWMss9aO3LNc6s4AJrJfxjfYUULmzr1N1o0mnReUHVMBAK96gGXByECqoxXV4z1SEqx2Cmw4fU1fCyecpcy1WFxwm2OgluDLk2euEMCVAz4eSuW_M_tB_T3BODt2whDX0iYginfiYYAem7twfD3hF7KDdDZfiqmLniQ-0A0ctzcyi7jEjOz3fXT8JWn4-C7Jyodz5rCns1zMRXANdjZeNAgOaV7cDb8R676GWevKfn0v5BZHlsB957l0051As7gt2xacdTGAYiDgoMOeguOQ7579E2A6Ey%26pg%3DWWAVJCKTYRAA5LRKFWR5SJ7AVU%26ch%3DAQEAEAABABTH1fOB43o8jQQuD49ENhgr06IkWqpzhOY.
+.netflix.com	TRUE	/	FALSE	1814096188	OptanonConsent	isGpcEnabled=0&datestamp=Sat+Jun+27+2026+08%3A36%3A28+GMT-0300+(Hor%C3%A1rio+Padr%C3%A3o+de+Bras%C3%ADlia)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=fd7f9790-783b-4662-863e-af278cd0150f&interactionCount=2&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&fclco=&intType=3&crTime=1782558639503&geolocation=BR%3BGO
+.netflix.com	TRUE	/	TRUE	1814096187	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABSz6hyzg8EkDsqiy_euYBpBO1KN_HeOeeA.%26dt%3D1782560202887
+.netflix.com	TRUE	/	TRUE	1817120184	dsca	true
+.netflix.com	TRUE	/	FALSE	1790336189	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790336189	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1814096183	nfvdid	BQFmAAEBECfz_-AMhmJsG7S6bB5J_3pgGnr-r26o3hDrsd2iMrB2MyediXJXo3n2NFOkYzlkXofmT0J8D3mykMCUVpwSh5u8PytWX8sUITYwatLHtXCxkc_whoQTojIjy_GxN8ko86-kn7Z2asI-021aKbkRzpQY

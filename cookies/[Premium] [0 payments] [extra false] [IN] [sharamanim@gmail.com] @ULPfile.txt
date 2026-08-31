@@ -1,0 +1,20 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: sharamanim@gmail.com
+– Verified: false
+– Profile: Twinko
+– Plan: Premium
+– Next billing: 25 September 2026
+– Extra members: false
+– Country: IN
+– Payments: 0
+– Cookies: TG : @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1799475633	nfvdid	BQFmAAEBEAVKmZyk9WOzUuAjFGoepVJgZfANgZ0gwI3cU5xWs9CXsPz8kPOpmWBDR6hgZLwxC8U9oSq8ZTMOEPVIp4AW9MshrtwiMuDT_C-r06vDNFx-6I-fN22JOpsJ55wbzxHBTexvODVHcLc645X6o73qgegw
+.netflix.com	TRUE	/	TRUE	1812461178	NetflixId	ct%3DBgjHlOvcAxLSA8qVNeu_5r-DBFfRPSSYinjk6T66q8AGwobcsCPELsbsz_kYMjtz1KjP0nCKTtaG1eta9zzXDTcmqBiH4pIDsPsp35_9J4Y6Rzb1T3Xm963-4KLZdWIkpJpzpL3cqrl5y1rFqYO94vr6T5aK0PYaoIeuO729o62PxZTRMySLZXil2sj2RYrQOGyER1Lr4YMRtEXkVbmK72b9RhbBEtzsiYbOWCML-anqh9GlYK31hfsy_n3Qz9PI8AiO7j3q5RXmH-JMQtNFEyEADWdj5MknxuT4M2a3ArC3jXTaCYnGLcUIaQzsDPMk7_iKYiufy_4qIDDfc237_mQZKt5ZAYdHOf_QaS7VI3DV7ngiu8QZiG-m1DSjIg0-ZPnrQrCnLoihSfskVruUHqr7JeKCoKhqCIdJDMSlybErpHD8IRIjwf9Z2HBV5BrCaTwxQ_QLy89TxhqgJ21snvwwyt3_1V_RmO5eTt1FP5vRepy1WLb5NEhfelQV8a07A4GRX4XFJn6fVv9K-h8SsUc912wHX6yW7iy-Nn8i5xZCF_yxkjkmIEedtEk37y9A51yJV3S_u-1bFoppggifmor6K7GvrfPmcRv0ReVwSFEVOtPd5jF5XiJyw0MYBiIOCgzVO46dBGMkX7pJpK0.%26ch%3DAQEAEAABABTJJo-jkXpy5Iy9ql0PpFl7gG79Ekx3at0.%26v%3D3%26pg%3DIR77SREW3FGBTIUQ3F67FGVBYU
+.netflix.com	TRUE	/	FALSE	1812461182	OptanonConsent	isGpcEnabled=0&datestamp=Mon+Jun+08+2026+18%3A56%3A22+GMT%2B0530+(India+Standard+Time)&version=202604.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=1c8db5a0-d8f2-4e2c-9f39-f99494bfdc88&interactionCount=0&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0
+.netflix.com	TRUE	/	TRUE	1812461178	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABS8TbGvLX77733Dr09QA2t_1vo1W-DiOHE.%26dt%3D1780925178185
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	281af79d-032e-4be4-adeb-cf73679f7306
+.netflix.com	TRUE	/	FALSE	1788701181	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1788701181	netflix-sans-normal-3-loaded	true

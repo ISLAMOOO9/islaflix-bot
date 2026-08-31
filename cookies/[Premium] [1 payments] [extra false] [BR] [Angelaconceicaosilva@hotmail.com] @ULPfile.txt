@@ -1,0 +1,21 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: Angelaconceicaosilva@hotmail.com
+– Verified: false
+– Profile: Rayssa
+– Plan: Premium
+– Next billing: 26 de setembro de 2026
+– Extra members: false
+– Country: BR
+– Payments: 1 | CC (MASTERCARD 2801)
+– Cookies: @ULPsub
+
+.netflix.com	TRUE	/	FALSE	1792418172	nfvdid	BQFmAAEBEGcfRkKTR6C2nZ7JtyaVFlhgahY32eJtv4RAYsJleF7zoWP9Gr7jnQdVZTXd5MpdFIZiSIskyvjERTjW3NaLWgwRRBQqex57OocLwa-5aTUrQh_3f7yoBEaXXRgEgvnWi9TAiLCJVPdwSkCeuaUgpHkc
+.netflix.com	TRUE	/	FALSE	1792418205	OptanonAlertBoxClosed	2025-10-19T13:56:45.869Z
+.netflix.com	TRUE	/	TRUE	1811121648	dsca	true
+.netflix.com	TRUE	/	TRUE	1809100248	NetflixId	ct%3DBgjHlOvcAxL_A6HS4j-su_ycahRoKigN65YqqJxxS2XC7juF9bxWCmC_CFluH0lEWZd2dyEdvaV1w2Ku485jPFO3scfcWKrs6GpBNRyt56HCfMd4EBTYjyqdBLHksRtjLL7d9DgSlGBAc9Z71PxMpOsuw2GZ2Cn1VVr5QHyg9rxTb9yQrmH4I9eJG1YIzJ-aQOBdpS9s9TAAdxVIaK-soTZ-RQ7K6eggGxuGfTnkEgYkeWqDX8Fk7_biBsggscVhL5smWwXNXJ_3gwIbFH__qsmnkA0g5XXSCS6vv5xbSLIZ6A9RpvPenuSDmP6KWpkzlbLSYtzibWAsG94beCOG3l6DCbM5pZ_VdNhvlVQEEIH2VckC0A5i8CRxksrRBf5zBoinNFVUxuLRoITzjyMsmrWOxIXE0EGk2LC_H4yCW7EY8OUNX0-tkyDelUEkc2m8FB-5831vfbLK4sTiBUPdi6r-AF4HgK2s1t9cx0sF6JrcTRNsiQjBHXx7ajwVioLX6gQiMvXwuFQxt3kFzHrCZS_4aWC_3C1ES2XkfWTO_oCkyWJuPg22IKMTwWSG4jEahDdg64uG-lXEeyjfNczjjFs8a1y-5rPusVXH6nmOQVawj-U6rmqH1c5cafOHzzjxCDL6buQ5X6qf1ETUmJxzCEw6HlNThNS1cREqICbhKW1Dp2vsUSDY0x0YBiIOCgwNgeqlTaDpZyRszbw.%26ch%3DAQEAEAABABQyTgcUcilukdlQODMplln0bih9rOX5-bM.%26v%3D3%26pg%3DAQFQ3YDP75CZZKRERBBDORFDU4
+.netflix.com	TRUE	/	TRUE	1809100248	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABStocK42Ry3e428gwFr9b7KUSxxJg4gRsA.%26dt%3D1777564245179
+.netflix.com	TRUE	/	FALSE	1809123923	OptanonConsent	isGpcEnabled=0&datestamp=Thu+Apr+30+2026+23%3A25%3A23+GMT%2B0100+(Hora+de+ver%C3%A3o+da+Europa+Ocidental)&version=202604.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=0f59e754-9089-407d-83cf-fee59bef3fd1&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=1&geolocation=PT%3B15&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	8f97d000-0c6a-4c04-bc73-96955bd7485f
+.netflix.com	TRUE	/	FALSE	1790798572	profilesNewSession	0

@@ -1,0 +1,21 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: msalamancacamargo82@gmail.com
+– Verified: false
+– Profile: MANUEL
+– Plan: Premium
+– Next billing: 1 de septiembre de 2026
+– Extra members: false
+– Country: CO
+– Payments: 1 | CC (MASTERCARD 1664)
+– Cookies: @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1810928346	nfvdid	BQFmAAEBEOCXFbLf17F6mhZQ203RkD1gjZj-doK0TKc52fRGSGOOxjFBUEutTusf8I7PjuQd1p_QQHA0AK5D1g2oyHuAzb-v1bacwyGfbwtexRGlMqonY1_QkyE3KmNgKtLxxMiAqE9O2sNJTLuHzZAA6dB9MbRP
+.netflix.com	TRUE	/	FALSE	1810928487	OptanonConsent	isGpcEnabled=0&datestamp=Thu+May+21+2026+14%3A41%3A27+GMT-0500+(hora+est%C3%A1ndar+de+Colombia)&version=202604.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=93d773be-6bd0-4c17-aff4-dd1e0fab98bf&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&AwaitingReconsent=false&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&isDntEnabled=0&prevHadToken=0
+.netflix.com	TRUE	/	TRUE	1814403435	NetflixId	ct%3DBgjHlOvcAxKEBIms5RVhB60nDYRiNEPuO9bmiARTCZz61VhOOtAOsPhF29ZPU_Uf7dSK-11RcOs6cdzQlUQrnFmsJYPSTWMXYAPuIbSOaSK9MaVPfeBoAuT0ILWl6P1nt3nv3BFa9gPD6tS_93ucA2a2yKlNCRkRqSHrT2YVi_noBoUtczNq4Enl3X-LcMirqpeEs9pbh7tPHvP_mqoV46YKB7MYsh8ckr7sgz7QW9NhtAot1CGszVuSMxHl8wzDVU0C-KwAXaIsShqyMB58CduNmH1DmTskkR8GfDoKvEUjeXECSM-2z_p04sxaJ4C5I8qVwWgvtGmegXvRLxJ_yGWI5u-7JF3I3pO680YfH1nwL1hXMt3OUTMu3sahu0ceGm6Yk74IhPB1K7r0Ahdx6qbekQ8F1vGYvZZFHyEIPsuKI7wb5QKMb2BjcXUErFBRg5IAI-8t6VnRsSbud2qpZCucJhHuOgh4j5aGcyoJYIUjCDV1DB8Aeo9qqqOtk8oyRip6D14UZZRQ7VtflK5gxB1Kb5LkIzB95Z1AZnvthW2ce1oUkgqY745t5Nvgjp2ESIB14y3EaPrNIJypWfnst1CY42k5tdjY04b9vrUV5UstDKX_VPV9IrkHlM2pb9Da3qD-TV-Nv1CorDPBJAHUXfAqOUQDlCSMP5CImt3xuewxoqf2mviJA14BlfVI_xgGIg4KDGUhPuqQW6-D8D1IHA..%26ch%3DAQEAEAABABQudg0gFAl-qYdITFfvqsNRqaP2nHv6AIM.%26v%3D3%26pg%3D4BNW7LY3GVCVRFVFUVXVFVW5G4
+.netflix.com	TRUE	/	TRUE	1814403435	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABRIoBiTuG9pNFJpIzFynA2WFevJTlSP0Lc.%26dt%3D1782867435716
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	791eb6b9-c1e5-4842-abfe-5333a403d16a
+.netflix.com	TRUE	/	FALSE	1790643442	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790643442	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790643442	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Atrue%7D%7D

@@ -1,0 +1,22 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: gabii_0092@live.com.ar
+– Verified: false
+– Profile: Alexis
+– Plan: Premium
+– Next billing: 2 de setiembre de 2026
+– Extra members: false
+– Country: AR
+– Payments: 1 | CC (MASTERCARD 9787)
+– Cookies: TG : @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1795654903	nfvdid	BQFmAAEBEFhTs9kfagR5QEDIb5zJxH9gSWV9zGDH1fDeanpSU1YI2JnQrsjsAfT-0Z4qTDRuRWokXFtP2cJHM7wbw6nwHMTeeovAzUvSGLpP9WnVnGDrPeQ4hl8OFA4rimW_4Rri7-A7sVcCrhWAFEpMy56Ts4YP
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	254d5f47-7d49-451b-828d-f919404cb108
+.netflix.com	TRUE	/	TRUE	1819218566	NetflixId	ct%3DBgjHlOvcAxKEBHe8W0r9JaitssbTE7eOPs-CataLXvhGkHUrX4Mdj0bxN2mNT_oiygQVORUI_TXy8LgIbjpol7zQXt1XLyLQJ6mwjVNO3O6dKW7LQgMHKkUhZF5BwSypLwVt0snxeytNkeePA6cMTqlFV77MpDeZerkJNxysAH4AteKoz3BjSDM3nKgM14q5eDOm9g4N2oF5qdvvP_wxx-SgTsNtdSvEFoW2LjghPEELO4N7I35wnW49tc4ikb_Jg6beTmheNPuLi7aLezXPhWlvMuQTbS1YBMqAIUjsKuojdc60DnPR-DGWKzs8N93plX6w7YZQ6wdkEn4hh12cYyap7zwWQbnoe3oZfCWy3bjPsOrI8uVVoJeEYv8U0HMl5SED_iW6zPdYS_GrjIeBVMejzEdRf4uIhASwqPOVZ0KUyQRA63hNuKPI5-meKe2yliEEtTuK9UZIVR2JAGwgNmqD4boJ3Yf-Iqx-oz2NOpIQMqC9qupA6BwGeQv27ccsWNGEqs0Q_f6BySBIpdG8hBeR48RN5YMXiD4HAFBIjGVw4eTbvXsqqRTv4K1fjUz8jWK56Hlr4n8JJu9jzvDevrzzXbI2yfN5O_EII8MXwuq8kT7f6Plv8hDjDR58ayDS34FSK3QcWhAI86lJIXa_ia0jcR-TKYgPigVIcAZL8Tt42ixvAEoJwvLzUIdvJRgGIg4KDGo9mQM__4B_Xz0SDQ..%26ch%3DAQEAEAABABRy4yzYTkEmDf8jXoHvUPgpGtcNMLiDSKg.%26v%3D3%26pg%3DYFSSRJDIZJG6DO4ARWLMSLHFUI
+.netflix.com	TRUE	/	FALSE	1819218571	OptanonConsent	isGpcEnabled=0&datestamp=Tue+Aug+25+2026+15%3A29%3A31+GMT-0300+(hora+est%C3%A1ndar+de+Argentina)&version=202607.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=bbd73c0a-65aa-465e-a637-04c4a607831c&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&prevHadToken=0&isDntEnabled=0
+.netflix.com	TRUE	/	TRUE	1819218566	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQIluiawm6iFMXaLanzaBl1zUO49XRfAPs.%26dt%3D1787682564506
+.netflix.com	TRUE	/	FALSE	1795458571	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1795458571	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1795458571	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Atrue%7D%7D
+.netflix.com	TRUE	/	FALSE	1790798572	profilesNewSession	0

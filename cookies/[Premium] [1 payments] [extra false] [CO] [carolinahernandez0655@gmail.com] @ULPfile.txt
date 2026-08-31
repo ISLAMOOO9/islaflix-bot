@@ -1,0 +1,21 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: carolinahernandez0655@gmail.com
+– Verified: false
+– Profile: carolinahernandez0655
+– Plan: Premium
+– Next billing: August 4, 2026
+– Extra members: false
+– Country: CO
+– Payments: 1 | CC (MASTERCARD 1126)
+– Cookies: @ULPfile Join
+
+.netflix.com	TRUE	/	FALSE	1813974400	nfvdid	BQFmAAEBENgNfdjcStmdX4nhm9MlDPJg0lEY6kk9tziKaOS-TiALZo86BkljiA9Buakj3-9VR8ln_1VdDsqTa0QLT_XgFtsVm9DHbJRHxJrD90WyUV_Cufpb75jRb4pjXLvzSU-9_nRrewLVPVdIhmJBtQ6ULmdU
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	7db0bf3a-36af-4814-b27b-279ead2ed962
+.netflix.com	TRUE	/	TRUE	1814386069	NetflixId	v%3D3%26ct%3DBgjHlOvcAxKpA5AS3ADOqVeCFI5zDeahwgjoykbHNcthGljQkSK8_QVP5mGH78oFakfMyImRU4Ie63IcIjQLCG35JqHSHvaQ07WZr8pmG5BCQHjazT5ilrH4nuT0szxhOISbmx3LiO0VZm4rjVMyEaK0GflhhEt72_0mQicTuI9uw-sTG5acozcKenhjIEN2erNY9lVVfX7zR4qDiAt7fz108ASZZ6L0QUWe8qkHbZtrnFX6eY8fCdFuIPVUiyU8_cMERkiY2Anlp-EUPLYyC2eN1kzcKnpAUpOuQH2-cXcy9vkDrlpjykjfdXjLO18UgMCA9KOL8rBryE7sYJA0deSY6UwJaez3FyfrOjXl8UyCrkNseJ6xRRNmyf7KAP4FoUx_kmIgHgcwBFgmJ0-FyJITqe3L-Cq8Gg1Zx2t45wqcICKI4HTJ1ikswAlcpTklji-Gz9taj0RQz-6WTfuy1FcDouDs3NyFmIj2IsBfCr3QBvBB2gQvbW_itGAWoJuvQs98ZTkVQ7SRgXDt5AiVAvo8Suvx7Ry4Cb1SOcBJz3P2EAoUJdVnAXR5bOFQU33OPG6rGAYiDgoMqaNhXydX6nqlF8xV%26pg%3DUV43FCDGIVFD7K5XEWSHB5DQK4%26ch%3DAQEAEAABABTYgDOCQSm2IvIipjwsnPOvmzqkfD4gMXE.
+.netflix.com	TRUE	/	TRUE	1814386069	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABRoFLs3pdGHI6RZ4rQkNeWF17oWMN9QOtg.%26dt%3D1782850068270
+.netflix.com	TRUE	/	FALSE	1814399250	OptanonConsent	isGpcEnabled=0&datestamp=Tue+Jun+30+2026+18%3A47%3A30+GMT-0500+(hora+est%C3%A1ndar+de+Colombia)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=3ceb7755-23f1-4345-a61d-adb01a0b125d&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1782438400540&AwaitingReconsent=false
+.netflix.com	TRUE	/	FALSE	1790639248	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790639248	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790639248	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D

@@ -1,0 +1,21 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: jonathanorva@hotmail.com
+– Verified: false
+– Profile: hare
+– Plan: Premium
+– Next billing: September 27, 2026
+– Extra members: false
+– Country: AU
+– Payments: 1 | CC (VISA 7500)
+– Cookies: @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1807068918	nfvdid	BQFmAAEBEDmdCh4xjHeclRcC0_VKrhZgp2jTl7WoeNsFuGicMeFxEdHDeGYjvREbetq0_Oyw-8PU53fBX92wfkG2gCNWucr_fTv-8hv8ugso8BOyJmPxawQxrfi4M7MIv_U7no0b-rGuiC8FvESrsMxJzJyQDdhW
+.netflix.com	TRUE	/	TRUE	1814082884	NetflixId	v%3D3%26ct%3DBgjHlOvcAxKSA4qfQcnE4h94rfLeEgghr5cJ0GLTUOqK2tAppe9bagJttLyO4DgdN35xo8AKI0uVk4rmY5tZqm3SIViZhho23Cbu2Qfs_fwKx-QVmDo5vv9sQ1zoamvl1nOqwhyTswTM8BOo8WanQ7u1SKv_zBCEmLOK_UVwk0aSMw3q5sddKJMlbRaNeMMoBy_pl_uJogdpxW1knAQHkAn2CHSrILsoNnYNObvPjbp2lBsbR6OvEoj9ECzfaXY0TZsD1fRpYQqqnBha__k7hS8ctkEW2xIVk9sAstZQo6sEznhpK63pcTjuhFNnZjt5BE0tivSVoJboydEM0-Tw-i2QokrcfBB7hFwjAqLJMaahC41UktwNiNlpwAEj_oHVRwiNeZxOoaLNu4CDtPn3RGWgR1-6aQ5orZi4gEA36Wdk5Dgzr_fe0ruiRuAF3_mQGp3ESg4uMjddJmaj2rdv7ytxvkAftAwVVhQz1VKrx8gKDip5boGESSk0bOiEmGG2A194_t1Nyf8Lw1AEBMmPggXZqRlwuQ5NRZfXfBgGIg4KDIO1yZLOGn2dNeHQXA..%26pg%3D5KSCDTM7HRGKTJKGEDATDW4UAM%26ch%3DAQEAEAABABQD0fDx0KAku0N9LH4PQg9orY8qe9T0lvU.
+.netflix.com	TRUE	/	FALSE	1814082882	OptanonConsent	consentId=d66ea449-eeb4-49c9-afce-e8caf56c96fc&datestamp=Sat+Jun+27+2026+14%3A54%3A42+GMT%2B0700+(Indochina+Time)&version=202604.2.0&interactionCount=1&isAnonUser=1&prevHadToken=0&crTime=1775532898171&isGpcEnabled=0&browserGpcFlag=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false&isDntEnabled=0
+.netflix.com	TRUE	/	TRUE	1814082884	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABQfWCAKiW40j4yU3FuLaYNUqye2mucop50.%26dt%3D1782546884207
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	209f233f-1db4-4311-9257-10227cdeec16
+.netflix.com	TRUE	/	FALSE	1790322881	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790322881	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1790322881	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D

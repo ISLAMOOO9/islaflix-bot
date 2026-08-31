@@ -1,0 +1,18 @@
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: barnett1230@hotmail.com
+– Verified: false
+– Profile: barnett1230
+– Plan: Premium
+– Next billing: September 10, 2026
+– Extra members: false
+– Country: CA
+– Payments: 1 | COMCAST_ROGERS ( )
+– Cookies: TG : @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1790798572	NetflixId	v%3D3%26ct%3DBgjHlOvcAxKHA6SGahbQQKth3h-9fLHB1E7BUAGbTIbSuwUzrlFeLiRAVgCzChXK55fd60qIsi24eWjnYaGILyQCz95WfERTZWywLZnE9DHdoxXCyh5r5JtuXhQ3ZcUnuztdoq0SuLvNMQd5BQoMcdXQ7fvkOdt57Y0dmucy6jVuGm6_wXAzoD4Qh28MkgOcaDoy9Ecr6Qu_vvJzR7fPityWFIq-eTtzHmEGN0rl2O4Zq1-Olto_QUf1ctgqUSqYwUtBVYKH4IfRRoo-NgntkYY2r27wDAQikHjicYNYWKRiVk-9IRbhRVz2Sjno4YycPL5mD4pZNS8RPg4TtQx0OQKb1qGNwKD13HmRDgYcr69bWYFITM-nBWEf5l2QOWYc0pwv4xw6Y5gHbgGZdFbolMSV8jyM1IgLCNdlzBGrs0xNGSykXTIwGQl06_tiSnqHX9FnRYCIP6lw4YLuoiTUqfM0qg9gskhxVD1wzlSck-6vMgLMaChQbKbXY2SG9Ko35tdNAx-22AvDouTD9TclX2UYBiIOCgyupUszkYZ1lQ5O-k8.%26pg%3DY22VHVMBJFACXIE7BNF72PX6A4%26ch%3DAQEAEAABABRupXVG6Y9ocqxrxHfBfArZiunuBDQ3NUU.
+.netflix.com	TRUE	/	FALSE	1790798572	OptanonAlertBoxClosed	2025-12-12T23:59:41.680Z
+.netflix.com	TRUE	/	FALSE	1790798572	OptanonConsent	isGpcEnabled=0&datestamp=Fri+Dec+12+2025+18%3A59%3A44+GMT-0500+(Eastern+Standard+Time)&version=202510.2.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=cdf74af5-97e5-4782-9c76-42d2005fd8b4&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&intType=3&geolocation=CA%3BON&AwaitingReconsent=false
+.netflix.com	TRUE	/	FALSE	1790798572	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABR6eQZwFxaF0-Mv5LweKXe-byrt1w6zr3E.%26dt%3D1765583985147
+.netflix.com	TRUE	/	FALSE	1790798572	nfvdid	BQFmAAEBEGjrYQF43MDh66gejtbhwAxgZ8Bd5q5PzQxv_6oqaCb7DBD4Mt3Mz5MjNIBn6QDKf34hlLAv1s2WCy0LLxHJ1_5OQBnMTxpOqfq6j7yiTKYipP47N8O36ZHLspK4jgqgYUWzech5eGE3kIDNKIk4UUTn
