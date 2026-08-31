@@ -7,6 +7,7 @@ import logging
 import random
 import sqlite3
 import asyncio
+import zipfile
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder
@@ -16,6 +17,18 @@ from urllib3.exceptions import InsecureRequestWarning
 # تحديد المسار الحقيقي والثابت للمجلد الذي يوجد فيه السكربت تلقائياً
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+# فك ضغط مجلد الكوكيز تلقائياً إذا وُجد ملف cookies.zip ولم يتم فكه مسبقاً
+COOKIES_ZIP = os.path.join(BASE_DIR, "cookies.zip")
+COOKIES_DIR = os.path.join(BASE_DIR, "cookies")
+
+if os.path.exists(COOKIES_ZIP) and not os.path.exists(COOKIES_DIR):
+    try:
+        with zipfile.ZipFile(COOKIES_ZIP, 'r') as zip_ref:
+            zip_ref.extractall(BASE_DIR)
+        print("Cookies zip extracted successfully!")
+    except Exception as e:
+        print(f"Failed to extract cookies.zip: {e}")
+
 # التوكن الخاص ببوتك على تيليجرام
 BOT_TOKEN = "8282364189:AAHPugzFqjsQDMzznap8jgYDyoq4nIELOms"
 
@@ -24,7 +37,6 @@ ADMIN_ID = 0
 VIP_IDS = []
 
 # ربط المجلدات والملفات بالمسار الثابت لضمان عدم ضياعها أو فقدانها
-COOKIES_DIR = os.path.join(BASE_DIR, "cookies")
 VIP_COOKIES_DIR = os.path.join(BASE_DIR, "vipcookies")
 USERS_FILE = os.path.join(BASE_DIR, "users.txt")
 DB_FILE = os.path.join(BASE_DIR, "bot_limits.db")
@@ -457,7 +469,7 @@ async def show_main_menu(callback: types.CallbackQuery, is_vip: bool):
         
         welcome_text = (
             "╔══════════════════════════╗\n"
-            "     🔥**ISLAFLIX OFFICIAL** 🔥\n"
+            "    🔥**ISLAFLIX OFFICIAL** 🔥\n"
             "╚══════════════════════════╝\n\n"
             f"{'👑 *مرحباً بك في قسم الـ VIP البريميوم الحصري!*' if is_vip else '👑 *مرحباً بك في القسم العادي لبوت نتفليكس.*'}\n\n"
             f"{'🌟 **نوع السحب:** سحب مباشر من مخزون البريميوم (`vipcookies`).' if is_vip else '🛡️ **نظام الحماية:** الحد الأقصى للسحب هو **10 حسابات** كل **30 دقيقة**.'}\n\n"
@@ -479,7 +491,7 @@ async def show_main_menu(callback: types.CallbackQuery, is_vip: bool):
         
         welcome_text = (
             "╔══════════════════════════╗\n"
-            "         🔥 **ISLAFLIX OFFICIAL** 🔥\n"
+            "        🔥 **ISLAFLIX OFFICIAL** 🔥\n"
             "╚══════════════════════════╝\n\n"
             f"{'👑 *Welcome to the exclusive VIP Premium section!*' if is_vip else '👑 *Welcome to the normal Netflix bot section.*'}\n\n"
             f"{'🌟 **Stock Type:** Direct pull from premium stock (`vipcookies`).' if is_vip else '🛡️ **Protection System:** Maximum limit is **10 accounts** every **30 minutes**.'}\n\n"
