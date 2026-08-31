@@ -1,0 +1,41 @@
+Email: a
+Profiles: a, b, d, c, E
+Country: ID
+Since: Juni 2026
+
+Token: BgiQvuvcAxLCAT5M1/hGR4nc2j1KdzMoHB73sw8Mel0f0nn60DerRfxLF2uoreYGcgTG6i8q8gXdjHhIM d DbPs5lOV/5l5 Yx34t5fBdobuZJ7PyDVv6yB77oIG0wpuMEV2GEJIhZrqso6bz92NNnzjCJlUsrlToLgd5Ib3jzbxOVAduEGzWGLEq1kWOxYXWMbLuXWpDAT2MenpL3qi3 svldTHeg2PriGZRxBjV1qJbrbxdApwKuB7LZ DDFmWTThmZaWlRWjztD7GAYiDgoMciuVv9AQCi9GCPYQ
+
+Direct Watch: https://netflix.com/?nftoken=BgiQvuvcAxLCAT5M1/hGR4nc2j1KdzMoHB73sw8Mel0f0nn60DerRfxLF2uoreYGcgTG6i8q8gXdjHhIM+d+DbPs5lOV/5l5+Yx34t5fBdobuZJ7PyDVv6yB77oIG0wpuMEV2GEJIhZrqso6bz92NNnzjCJlUsrlToLgd5Ib3jzbxOVAduEGzWGLEq1kWOxYXWMbLuXWpDAT2MenpL3qi3+svldTHeg2PriGZRxBjV1qJbrbxdApwKuB7LZ+DDFmWTThmZaWlRWjztD7GAYiDgoMciuVv9AQCi9GCPYQ
+
+Mobile Watch: To use mobile apps you need to copy the Direct Watch link and paste it to your mobile Chrome browser and enter. After you enter and open the account in the browser, change the link to https://netflix.com/unsupported. It will suggest to open the app; click that and it will direct you to the mobile app smoothly.
+
+TV Watch: https://netflix.com/tv2?nftoken=BgiQvuvcAxLCAT5M1/hGR4nc2j1KdzMoHB73sw8Mel0f0nn60DerRfxLF2uoreYGcgTG6i8q8gXdjHhIM+d+DbPs5lOV/5l5+Yx34t5fBdobuZJ7PyDVv6yB77oIG0wpuMEV2GEJIhZrqso6bz92NNnzjCJlUsrlToLgd5Ib3jzbxOVAduEGzWGLEq1kWOxYXWMbLuXWpDAT2MenpL3qi3+svldTHeg2PriGZRxBjV1qJbrbxdApwKuB7LZ+DDFmWTThmZaWlRWjztD7GAYiDgoMciuVv9AQCi9GCPYQ
+
+========================================
+       ORIGINAL DATA 
+========================================
+
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: wolfgangeuphemiarowan4075@hotmail.com
+– Verified: false
+– Profile: a
+– Plan: Premium
+– Next billing: 8 Agustus 2026
+– Extra members: false
+– Country: ID
+– Payments: 1 | MOBILE_WALLET (DANA 62-851****3394)
+– Cookies: TG : @ULPfile
+
+.netflix.com	TRUE	/	FALSE	1813387931	nfvdid	BQFmAAEBEOlJkGCBuwpjQpCNcezzsmxgpWiBgIhDMcxBh7betVFSwK7Sk6DExJhKizwUA4JvuyUE0VRXkfq0QIS5Pkym1hiBmeRc0V83ovKgxiNpt0fnHTYS1iQtm1I8MURSJ8Q4LGPsWae8F_LOVLkmEy1eCR7k
+.netflix.com	TRUE	/	TRUE	1815658294	NetflixId	ct%3DBgjHlOvcAxLyAyBt9UIIPMz5TnO5jh_EqGkkUyWuRY3XNH7e-Atckz5JLs2b1HX1hpLFM80CNL5LlrYNrfc3nTOm72Gwd_vlleW7HyQkUZq099qntRcYHTEj1rX-QsvKYtLr9B5hAau2AUM2ZBgFIYYqu81L1klGkEKBlvOtzxs1kmnKZPsbJYv-O4kmYYPlQB7rdQGls3pBtJj1_dSTf9DFJ7SLAh76lZq41z1K-AQqUiNqIAbjik2IEPNEVF-UXHmENT0q5I_4_iQylbS3c_BpvCM-P9Oc0QcBjA2O3v3TVwSMt0M7C_b7lk_mKip_G_E7hcps69TI3jefEl7cypX-u8mby2HVVaok4Kn9RfeQrqSKIpXDw1q8kFpfnQSiDXhNIq5JWUkyJQLI11ZMUIETcSGyG_SFK14S9hCo3Khuqvn6jCK6gAGSMTYNl8bNfYzxLdL-BJkQpWb4qJngLV0TJ8nqzfEwxK7Yigi0EV0oMeN8rdrWFejupdmtjVwut_G3GextaO0svXKvUKL-t19iioQvaWr1AdjpoFJw7iBVkB_mdhdjf_v4BaRJp9rykghixu1EeCG_ktEVBZ_Yut3F98NQ_ZHx3hrrQCE839O9Kza2rRfR7zzzi9KgaTk9Z-NkeWNU1sn-1oLBqDRK1npbNJavXx3lt3zHhRgGIg4KDHi12tXbAE6L4mlxVw..%26ch%3DAQEAEAABABRqYe2BCCLYMydYXSO5Kz2uHe107aE9xQY.%26v%3D3%26pg%3DBZAHRSVJJFB2BCTBZVBL6ADB2A
+.netflix.com	TRUE	/	FALSE	1815658293	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Jul+15+2026+20%3A31%3A33+GMT%2B0700+(Western+Indonesia+Time)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=1e57c866-1eee-4fad-a034-80bfdad43243&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1781851931978&AwaitingReconsent=false
+.netflix.com	TRUE	/	TRUE	1815658294	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABTe11sSrlaEwPONZuy1VRcFlH3zo8paHN0.%26dt%3D1784122295490
+.netflix.com	TRUE	/	TRUE	1790798572	gsid	402e4a1f-2610-468c-bdf8-f2ec9fd9cdeb
+.netflix.com	TRUE	/	FALSE	1791898292	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1791898292	netflix-sans-normal-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1791898292	pas	%7B%22supplementals%22%3A%7B%22muted%22%3Afalse%7D%7D
+.netflix.com	TRUE	/	FALSE	1790798572	profilesNewSession	0
+--------------------------------------------------
+
