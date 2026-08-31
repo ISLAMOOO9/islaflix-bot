@@ -1,0 +1,38 @@
+Email: Mario Corzo
+Profiles: Mario Corzo, Rayan
+Country: CO
+Since: März 2018
+
+Token: BgiQvuvcAxLEASryeNr0X2fhg1Yq3sQpkIBdsA6OsHV9aM298N4B/kvdIfdryxArLmhAg1gYzYBcyf04O6vY4XERFclOYACLTpNjvZ2WOBhfYo/TczaVYevgwiMbjAazL/fHIalKJapgfaJ08KF5chJptgblseKd97gWYavBHKTNzEbqiBOZc4wCu6V/axtaY2yF2IL4SHeVYoYecr 4daRzUzLYIepOkD3N6Uu9/4UoR16z9K/klexeQspQn/hyu79DvBU9sMmlbnn6pnEYBiIOCgwAcWaznlBd3YKWfiE=
+
+Direct Watch: https://netflix.com/?nftoken=BgiQvuvcAxLEASryeNr0X2fhg1Yq3sQpkIBdsA6OsHV9aM298N4B/kvdIfdryxArLmhAg1gYzYBcyf04O6vY4XERFclOYACLTpNjvZ2WOBhfYo/TczaVYevgwiMbjAazL/fHIalKJapgfaJ08KF5chJptgblseKd97gWYavBHKTNzEbqiBOZc4wCu6V/axtaY2yF2IL4SHeVYoYecr+4daRzUzLYIepOkD3N6Uu9/4UoR16z9K/klexeQspQn/hyu79DvBU9sMmlbnn6pnEYBiIOCgwAcWaznlBd3YKWfiE=
+
+Mobile Watch: To use mobile apps you need to copy the Direct Watch link and paste it to your mobile Chrome browser and enter. After you enter and open the account in the browser, change the link to https://netflix.com/unsupported. It will suggest to open the app; click that and it will direct you to the mobile app smoothly.
+
+TV Watch: https://netflix.com/tv2?nftoken=BgiQvuvcAxLEASryeNr0X2fhg1Yq3sQpkIBdsA6OsHV9aM298N4B/kvdIfdryxArLmhAg1gYzYBcyf04O6vY4XERFclOYACLTpNjvZ2WOBhfYo/TczaVYevgwiMbjAazL/fHIalKJapgfaJ08KF5chJptgblseKd97gWYavBHKTNzEbqiBOZc4wCu6V/axtaY2yF2IL4SHeVYoYecr+4daRzUzLYIepOkD3N6Uu9/4UoR16z9K/klexeQspQn/hyu79DvBU9sMmlbnn6pnEYBiIOCgwAcWaznlBd3YKWfiE=
+
+========================================
+       ORIGINAL DATA 
+========================================
+
+﻿Valid Cookie / Every day!
+t.me/ULPfile
+
+– Email: mariocorzo.zehr@gmail.com
+– Verified: false
+– Profile: Mario\x20Corzo
+– Plan: Premium
+– Next billing: 13. September 2026
+– Extra members: false
+– Country: CO
+– Payments: 1 | CC (MASTERCARD 2573)
+– Cookies: Telegram : @U L P f i l e
+
+.netflix.com	TRUE	/	TRUE	1815701279	NetflixId	v%3D3%26ct%3DBgjHlOvcAxKoAxl0Tqx6VozElZW-zvtABMRwEZ6-OMBVEft7UKlPELuGyJd8Ku-1oYx0i3mCeRBkzuQR_D7Y9x15pMHHA02RDD9E5V5fgZKrQ2SYnMc2vZUI9hmcyvE-wLwzGdi8QH5E6jHbkjt5WlXxsGDGxnwO9kse7lse2tFAE5eV7tzv5ZcZSatdATFMS0xH6mU7lNmwlHLZVcWCS54as8IIQ1e7YKj8MwTjhI5Hzk5T33IvgMKFNR-J_WN-RD-PVGTAtyh0b4MOEdFwjjLUYnlelm2QwDrdtfsllDMUUxn-2fPbelzpr4FQx9ARXMrA_lPKMNpZq4X6glhqaH3CHo--lc3G-E9BnME06aeJv6TvloqFG8zLPU4w9m3nagg_FEaaJ5PQHMySf4KAiLUzrnwTgQxT-eZMaPxjAdcGPR2hpPoZtpMD8N2-C5xg2BjkBi9wbG6Yz4aLciyy-edDN4Nvfj-NYXJFkggvD74SjC_sarF4vU28YwyaWoonmw81khod5l3T4kHCt4ZTgi8dPxAg9JWEBzNS451kgmA2mJXMIGVTYZEAN6dZQFbndUoYBiIOCgyiCYVHtl39tlkOPUk.%26pg%3DT4IGLS3RLZB2NEMJCZ637X6GB4%26ch%3DAQEAEAABABRsA_7DjYMwDMtuKJsRVbe1zG0Zcv7cqNE.
+.netflix.com	TRUE	/	TRUE	1815701279	SecureNetflixId	v%3D3%26mac%3DAQEAEQABABR6wAXWYCDTKhP3nr0LGfwITuNwWoll0pE.%26dt%3D1784165280493
+.netflix.com	TRUE	/	FALSE	1815701279	nfvdid	BQFmAAEBEIq7oT3IGqpxzSmZrfDr1Vdg0JyP5E4L-c3VGk0T09F1anyjviGgo4NxAv5IGumYZy_9SggGuptl5oWcgEvlRe_F_S9smXpY8le-KDSDZV_vBfaKiMhE2KWu1LxP04wpdDo6kjGSeyKEwwXTgs7pDTNU
+.netflix.com	TRUE	/	FALSE	1815703285	OptanonConsent	isGpcEnabled=0&datestamp=Wed+Jul+15+2026+21%3A01%3A25+GMT-0500+(hora+est%C3%A1ndar+de+Colombia)&version=202604.2.0&browserGpcFlag=0&isDntEnabled=0&isIABGlobal=false&hosts=&consentId=5027fe5f-3d46-46a5-843e-14d776b56772&interactionCount=1&isAnonUser=1&prevHadToken=0&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&crTime=1784165279186&AwaitingReconsent=false
+.netflix.com	TRUE	/	FALSE	1791943285	netflix-sans-bold-3-loaded	true
+.netflix.com	TRUE	/	FALSE	1791943285	netflix-sans-normal-3-loaded	true
+--------------------------------------------------
+
