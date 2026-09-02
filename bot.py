@@ -7,51 +7,25 @@ import logging
 import random
 import sqlite3
 import asyncio
-import zipfile
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 import requests
 from urllib3.exceptions import InsecureRequestWarning
 
-# تحديد المسار الحقيقي والثابت للمجلد الذي يوجد فيه السكربت تلقائياً
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-print(f"[DEBUG] Base Directory: {BASE_DIR}")
 
-# فك ضغط مجلد الكوكيز تلقائياً وتتبع العملية
-COOKIES_ZIP = os.path.join(BASE_DIR, "cookies.zip")
-COOKIES_DIR = os.path.join(BASE_DIR, "cookies")
+BOT_TOKEN = "8965504575:AAECbWvr8fkDLYHc-eFSRV1ir3qMg7J2Nes"
 
-if os.path.exists(COOKIES_ZIP):
-    print(f"[DEBUG] Found cookies.zip at: {COOKIES_ZIP}")
-    if not os.path.exists(COOKIES_DIR):
-        os.makedirs(COOKIES_DIR, exist_ok=True)
-    try:
-        with zipfile.ZipFile(COOKIES_ZIP, 'r') as zip_ref:
-            zip_ref.extractall(BASE_DIR)
-        print("[DEBUG] Cookies zip extracted successfully!")
-    except Exception as e:
-        print(f"[ERROR] Failed to extract cookies.zip: {e}")
-else:
-    print(f"[WARNING] cookies.zip not found at {COOKIES_ZIP}")
-
-# التأكد من إنشاء المجلدات إذا لم تكن موجودة
-os.makedirs(COOKIES_DIR, exist_ok=True)
-VIP_COOKIES_DIR = os.path.join(BASE_DIR, "vipcookies")
-os.makedirs(VIP_COOKIES_DIR, exist_ok=True)
-
-# التوكن الخاص ببوتك على تيليجرام
-BOT_TOKEN = "8282364189:AAHPugzFqjsQDMzznap8jgYDyoq4nIELOms"
-
-# تم تفريغ آيدي المطور والـ VIP للاختبار
 ADMIN_ID = 0  
 VIP_IDS = []
 
+COOKIES_DIR = os.path.join(BASE_DIR, "cookies")
+VIP_COOKIES_DIR = os.path.join(BASE_DIR, "vipcookies")
 USERS_FILE = os.path.join(BASE_DIR, "users.txt")
 DB_FILE = os.path.join(BASE_DIR, "bot_limits.db")
 API_URL = "https://ios.prod.ftl.netflix.com/iosui/user/15.48"
 
-# إعداد قاعدة البيانات
 def init_db():
     conn = sqlite3.connect(DB_FILE)
     cursor = conn.cursor()
@@ -110,7 +84,7 @@ def check_user_limit(user_id):
         remaining_time = reset_time - datetime.now()
         minutes = int(remaining_time.total_seconds() // 60)
         seconds = int(remaining_time.total_seconds() % 60)
-        return False, f"{minutes} دقيقة و {seconds} ثانية" if minutes > 0 else f"{seconds} ثانية"
+        return False, f"{minutes} mins and {seconds} secs" if minutes > 0 else f"{seconds} secs"
         
     return True, 10 - len(claims)
 
@@ -198,14 +172,9 @@ def get_total_users():
 
 def get_stock_count(target_dir):
     if not os.path.exists(target_dir):
+        os.makedirs(target_dir)
         return 0
-    # فحص شامل حتى لو كانت الملفات داخل مجلد فرعي بالخطأ
-    files = []
-    for root, dirs, filenames in os.walk(target_dir):
-        for f in filenames:
-            if f.endswith(".txt"):
-                files.append(f)
-    print(f"[DEBUG] Stock count for {target_dir}: {len(files)} files found.")
+    files = [f for f in os.listdir(target_dir) if f.endswith(".txt")]
     return len(files)
 
 def parse_netscape_cookie_line(line):
@@ -298,21 +267,16 @@ def fetch_nftoken(cookie_dict):
 def get_working_cookie_and_token_sync(is_vip):
     target_dir = VIP_COOKIES_DIR if is_vip else COOKIES_DIR
     if not os.path.exists(target_dir):
+        os.makedirs(target_dir)
+
+    files = [f for f in os.listdir(target_dir) if f.endswith(".txt")]
+    if not files:
         return None, None
 
-    all_files = []
-    for root, dirs, files in os.walk(target_dir):
-        for f in files:
-            if f.endswith(".txt"):
-                all_files.append(os.path.join(root, f))
+    random.shuffle(files)
 
-    if not all_files:
-        print(f"[WARNING] No text files found in {target_dir}")
-        return None, None
-
-    random.shuffle(all_files)
-
-    for file_path in all_files:
+    for filename in files:
+        file_path = os.path.join(target_dir, filename)
         try:
             with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
                 raw_text = f.read()
@@ -339,14 +303,11 @@ async def cmd_start(message: types.Message):
     add_user(message.from_user.id)
     
     builder = InlineKeyboardBuilder()
-    builder.button(text="🇸🇦 العربية", callback_data="lang_ar")
+    builder.button(text="🇵🇭 Pilipino", callback_data="lang_ph")
     builder.button(text="🇬🇧 English", callback_data="lang_en")
     builder.adjust(2)
 
-    text = (
-        "🌐 **Please choose your preferred language:**\n"
-        "🌐 **الرجاء اختيار لغتك المفضلة:**"
-    )
+    text = "🌐 **Please choose your preferred language / Mangyaring piliin ang iyong gustong wika:**"
     await message.answer(text, reply_markup=builder.as_markup(), parse_mode="Markdown")
 
 @dp.callback_query(F.data.startswith("lang_"))
@@ -363,20 +324,20 @@ async def process_language(callback: types.CallbackQuery):
 async def show_rules_and_intro(message: types.Message, lang: str):
     builder = InlineKeyboardBuilder()
     
-    if lang == "ar":
+    if lang == "ph":
         text = (
             " ══════════════════ \n"
-            " 🌟**ISLAFLIX BOT** 🌟\n"
+            " 🌟 **ISLAFLIX BOT** 🌟\n"
             " ══════════════════ \n\n"
-            "👨‍💻 **المطور وصانع البوت:** المطور **إسلام**.\n"
-            "📌 **عن البوت:** منصة ذكية ومقدمة مجاناً بالكامل لتوليد وتشغيل حسابات نتفليكس الرسمية بكل سهولة.\n\n"
-            "⚠️ **شروط وأحكام الاستخدام الهامة:**\n"
-            " ┣ 🎁 **البوت مجاني 100% للجميع** ولا يحتاج لأي رسوم.\n"
-            " ┣ 🚫 **يُمنع منعاً باتاً بيع الحسابات** أو المتاجرة بها، وكل من يخالف ذلك سيتم حظره نهائياً.\n"
-            " ┗ 🛡️ **نظام الحماية:** مسموح بسحب **10 حسابات كحد أقصى** كل **30 دقيقة** لضمان استمرارية الخدمة.\n\n"
-            "✨ *بالضغط على زر (موافق والمتابعة)، فإنك توافق على الشروط وتتعهد بعدم بيع الحسابات.*"
+            "👨‍💻 **Developer & Creator:** Developed by **Islam**.\n"
+            "📌 **About Bot:** An intelligent platform provided completely free to generate and run official Netflix accounts easily.\n\n"
+            "⚠️ **Important Terms & Conditions:**\n"
+            " ┣ 🎁 **The bot is 100% FREE for everyone** with no fees.\n"
+            " ┣ 🚫 **Selling accounts is strictly prohibited**, violators will be permanently banned.\n"
+            " ┗ 🛡️ **Anti-Spam Policy:** Limited to **10 accounts max** every **30 minutes** to ensure fair use.\n\n"
+            "✨ *Sa pamamagitan ng pag-click sa (Sumasang-ayon at Magpatuloy), tinatanggap mo ang mga panuntunan at nangangakong hindi ibebenta ang mga account.*"
         )
-        builder.button(text="✅ موافق والمتابعة", callback_data="check_user_type")
+        builder.button(text="✅ Sumasang-ayon at Magpatuloy", callback_data="check_user_type")
     else:
         text = (
             " ══════════════════ \n"
@@ -402,17 +363,17 @@ async def choose_user_type(callback: types.CallbackQuery):
     except Exception:
         pass
         
-    lang = get_user_lang(callback.from_user.id) or "ar"
+    lang = get_user_lang(callback.from_user.id) or "en"
     
     builder = InlineKeyboardBuilder()
-    if lang == "ar":
-        builder.button(text="👤 شخص عادي (مستخدم عام)", callback_data="mode_normal")
-        builder.button(text="💎 عضو VIP (حسابات بريميوم حصرية)", callback_data="mode_vip")
+    if lang == "ph":
+        builder.button(text="👤 Normal User", callback_data="mode_normal")
+        builder.button(text="💎 VIP Member (Exclusive Premium)", callback_data="mode_vip")
         text = (
-            "🔍 **اختر نوع حسابك للمتابعة:**\n"
+            "🔍 **Piliin ang uri ng iyong account upang magpatuloy:**\n"
             "━━━━━━━━━━━━━━━━━━━\n"
-            "👤 **شخص عادي:** للسحب من الكوكيز العامة (بحد أقصى 10 حسابات كل 30 دقيقة).\n"
-            "💎 **عضو VIP:** للسحب المباشر من حسابات البريميوم الحصرية (يتطلب آيدي مسجل)."
+            "👤 **Normal User:** Pangkalahatang access sa cookies (Max 10 accounts bawat 30 minuto).\n"
+            "💎 **VIP Member:** Direktang access sa mga eksklusibong premium account (nangangailangan ng rehistradong ID)."
         )
     else:
         builder.button(text="👤 Normal User", callback_data="mode_normal")
@@ -443,16 +404,16 @@ async def enter_vip_mode(callback: types.CallbackQuery):
         pass
         
     user_id = callback.from_user.id
-    lang = get_user_lang(user_id) or "ar"
+    lang = get_user_lang(user_id) or "en"
     
     if user_id == ADMIN_ID or user_id in VIP_IDS:
         await show_main_menu(callback, is_vip=True)
     else:
-        if lang == "ar":
+        if lang == "ph":
             error_text = (
-                "❌ **عذراً، آيديك غير مسجل في قائمة الـ VIP!**\n"
+                "❌ **Pasensya na, ang iyong ID ay hindi nakarehistro sa listahan ng VIP!**\n"
                 "━━━━━━━━━━━━━━━━━━━\n"
-                "⚠️ هذا القسم مخصص للأعضاء المميزين فقط."
+                "⚠️ Ang seksyong ito ay para lamang sa mga miyembro ng VIP."
             )
         else:
             error_text = (
@@ -464,7 +425,7 @@ async def enter_vip_mode(callback: types.CallbackQuery):
 
 async def show_main_menu(callback: types.CallbackQuery, is_vip: bool):
     user_id = callback.from_user.id
-    lang = get_user_lang(user_id) or "ar"
+    lang = get_user_lang(user_id) or "en"
     
     target_stock_dir = VIP_COOKIES_DIR if is_vip else COOKIES_DIR
     stock = get_stock_count(target_stock_dir)
@@ -473,27 +434,27 @@ async def show_main_menu(callback: types.CallbackQuery, is_vip: bool):
     builder = InlineKeyboardBuilder()
     mode_suffix = "_vip" if is_vip else "_normal"
     
-    if lang == "ar":
-        builder.button(text="📱  توليد حساب (هاتف محمول)", callback_data=f"dev_phone{mode_suffix}")
-        builder.button(text="💻  توليد حساب (كمبيوتر - PC)", callback_data=f"dev_pc{mode_suffix}")
-        builder.button(text="📺  توليد حساب (تلفاز ذكي - Smart TV)", callback_data=f"dev_tv{mode_suffix}")
+    if lang == "ph":
+        builder.button(text="📱  Bumuo ng Account (Mobile)", callback_data=f"dev_phone{mode_suffix}")
+        builder.button(text="💻  Bumuo ng Account (PC / Laptop)", callback_data=f"dev_pc{mode_suffix}")
+        builder.button(text="📺  Bumuo ng Account (Smart TV)", callback_data=f"dev_tv{mode_suffix}")
         
         if user_id == ADMIN_ID and is_vip:
-            builder.button(text="📊 لوحة التحكم والإحصائيات", callback_data="admin_stats")
-            builder.button(text="🧹 فحص وتنظيف الحسابات التالفة", callback_data="clean_cookies")
+            builder.button(text="📊 Admin Dashboard & Stats", callback_data="admin_stats")
+            builder.button(text="🧹 Linisin ang Sirang Cookies", callback_data="clean_cookies")
             
         builder.adjust(1)
         
         welcome_text = (
             "╔══════════════════════════╗\n"
-            "    🔥**ISLAFLIX OFFICIAL** 🔥\n"
+            "         🔥 **ISLAFLIX OFFICIAL** 🔥\n"
             "╚══════════════════════════╝\n\n"
-            f"{'👑 *مرحباً بك في قسم الـ VIP البريميوم الحصري!*' if is_vip else '👑 *مرحباً بك في القسم العادي لبوت نتفليكس.*'}\n\n"
-            f"{'🌟 **نوع السحب:** سحب مباشر من مخزون البريميوم (`vipcookies`).' if is_vip else '🛡️ **نظام الحماية:** الحد الأقصى للسحب هو **10 حسابات** كل **30 دقيقة**.'}\n\n"
-            f"📊 **حالة المخزون المتاح لك:**\n"
-            f" ┣ 📦 الحسابات المتاحة: **`{stock}`** حساب جاهز\n"
-            f" ┗ ⚡ حالة السيرفر: {status_icon} **`{'متصل وجاهز للعمل بكفاءة' if stock > 0 else 'المخزون نفذ مؤقتاً'}`**\n\n"
-            "💎 *اختر الجهاز المراد تشغيل الحساب عليه من الأزرار الفخمة بالأسفل:*"
+            f"{'👑 *Maligayang pagdating sa eksklusibong seksyon ng VIP Premium!*' if is_vip else '👑 *Maligayang pagdating sa normal na seksyon ng Netflix bot.*'}\n\n"
+            f"{'🌟 **Uri ng Stock:** Direktang paghila mula sa stock ng premium (`vipcookies`).' if is_vip else '🛡️ **Sistema ng Proteksyon:** Limitado sa **10 account max** bawat **30 minuto**.'}\n\n"
+            f"📊 **Magagamit na Stock para sa iyo:**\n"
+            f" ┣ 📦 Mga Available na Account: **`{stock}`** handang account\n"
+            f" ┗ ⚡ Katayuan ng Server: {status_icon} **`{'Online at Ganap na Gumagana' if stock > 0 else 'Wala nang Stock'}`**\n\n"
+            "💎 *Piliin ang uri ng iyong device mula sa mga premium na button sa ibaba:*"
         )
     else:
         builder.button(text="📱  Generate Account (Mobile)", callback_data=f"dev_phone{mode_suffix}")
@@ -508,7 +469,7 @@ async def show_main_menu(callback: types.CallbackQuery, is_vip: bool):
         
         welcome_text = (
             "╔══════════════════════════╗\n"
-            "        🔥 **ISLAFLIX OFFICIAL** 🔥\n"
+            "         🔥 **ISLAFLIX OFFICIAL** 🔥\n"
             "╚══════════════════════════╝\n\n"
             f"{'👑 *Welcome to the exclusive VIP Premium section!*' if is_vip else '👑 *Welcome to the normal Netflix bot section.*'}\n\n"
             f"{'🌟 **Stock Type:** Direct pull from premium stock (`vipcookies`).' if is_vip else '🛡️ **Protection System:** Maximum limit is **10 accounts** every **30 minutes**.'}\n\n"
@@ -535,14 +496,14 @@ async def admin_statistics(callback: types.CallbackQuery):
     vip_stock = get_stock_count(VIP_COOKIES_DIR)
 
     stats_text = (
-        "👑 **لوحة تحكم المطور - ISLAFLIX**\n"
+        "👑 **Admin Dashboard - ISLAFLIX**\n"
         "━━━━━━━━━━━━━━━━━━━\n"
-        f"👥 إجمالي المستخدمين المسجلين: **`{total_users}`** مستخدم\n"
-        f"📦 حسابات الأعضاء العاديين (`cookies`): **`{normal_stock}`** حساب\n"
-        f"💎 حسابات البريميوم VIP (`vipcookies`): **`{vip_stock}`** حساب\n"
-        f"🌟 إجمالي أعضاء الـ VIP المضافين: **`{len(VIP_IDS)}`** عضو\n"
+        f"👥 Total Registered Users: **`{total_users}`** users\n"
+        f"📦 Normal User Accounts (`cookies`): **`{normal_stock}`** accounts\n"
+        f"💎 VIP Premium Accounts (`vipcookies`): **`{vip_stock}`** accounts\n"
+        f"🌟 Total VIP Members Added: **`{len(VIP_IDS)}`** members\n"
         "━━━━━━━━━━━━━━━━━━━\n"
-        "💡 *البوت يعزل حسابات الـ VIP تماماً عن المستخدمين العاديين.*"
+        "💡 *The bot completely isolates VIP accounts from normal users.*"
     )
     
     builder = InlineKeyboardBuilder()
@@ -559,9 +520,9 @@ async def manual_clean_cookies(callback: types.CallbackQuery):
         return
 
     await callback.message.edit_text(
-        "🧹 **جاري فحص وتنظيف جميع الحسابات (العادية والـ VIP)...**\n"
+        "🧹 **Checking and cleaning all accounts (Normal & VIP)...**\n"
         "━━━━━━━━━━━━━━━━━━━\n"
-        "🔄 *يرجى الانتظار، يتم اختبار صلاحية كل الملفات الآن.*",
+        "🔄 *Please wait, testing validity of all files now.*",
         parse_mode="Markdown"
     )
 
@@ -569,30 +530,28 @@ async def manual_clean_cookies(callback: types.CallbackQuery):
         removed_count = 0
         for target_dir in [COOKIES_DIR, VIP_COOKIES_DIR]:
             if os.path.exists(target_dir):
-                for root, dirs, files in os.walk(target_dir):
-                    for filename in files:
-                        if not filename.endswith(".txt"):
+                files = [f for f in os.listdir(target_dir) if f.endswith(".txt")]
+                for filename in files:
+                    file_path = os.path.join(target_dir, filename)
+                    try:
+                        with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+                            raw_text = f.read()
+                        cookie_dict = extract_cookie_dict(raw_text)
+                        if not cookie_dict:
+                            os.remove(file_path)
+                            removed_count += 1
                             continue
-                        file_path = os.path.join(root, filename)
+                        
+                        token, _ = fetch_nftoken(cookie_dict)
+                        if not token:
+                            os.remove(file_path)
+                            removed_count += 1
+                    except Exception:
                         try:
-                            with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
-                                raw_text = f.read()
-                            cookie_dict = extract_cookie_dict(raw_text)
-                            if not cookie_dict:
-                                os.remove(file_path)
-                                removed_count += 1
-                                continue
-                            
-                            token, _ = fetch_nftoken(cookie_dict)
-                            if not token:
-                                os.remove(file_path)
-                                removed_count += 1
+                            os.remove(file_path)
+                            removed_count += 1
                         except Exception:
-                            try:
-                                os.remove(file_path)
-                                removed_count += 1
-                            except Exception:
-                                pass
+                            pass
         return removed_count
 
     removed_count = await asyncio.to_thread(background_clean)
@@ -600,11 +559,11 @@ async def manual_clean_cookies(callback: types.CallbackQuery):
     vip_final = get_stock_count(VIP_COOKIES_DIR)
     
     clean_result_text = (
-        "✅ **تم الانتهاء من عملية الفحص والتشغيل بنجاح!**\n"
+        "✅ **Scan and cleaning process completed successfully!**\n"
         "━━━━━━━━━━━━━━━━━━━\n"
-        f"🗑️ الملفات التالفة المحذوفة: **`{removed_count}`** ملف\n"
-        f"📦 المخزون العادي المتبقي: **`{normal_final}`** حساب\n"
-        f"💎 مخزون البريميوم VIP المتبقي: **`{vip_final}`** حساب"
+        f"🗑️ Removed Broken Files: **`{removed_count}`** files\n"
+        f"📦 Remaining Normal Stock: **`{normal_final}`** accounts\n"
+        f"💎 Remaining VIP Premium Stock: **`{vip_final}`** accounts"
     )
 
     builder = InlineKeyboardBuilder()
@@ -618,7 +577,7 @@ async def process_device_selection(callback: types.CallbackQuery):
         pass
 
     user_id = callback.from_user.id
-    lang = get_user_lang(user_id) or "ar"
+    lang = get_user_lang(user_id) or "en"
 
     parts = callback.data.split("_")
     device = parts[1]
@@ -628,12 +587,12 @@ async def process_device_selection(callback: types.CallbackQuery):
     if not is_vip:
         allowed, info = check_user_limit(user_id)
         if not allowed:
-            if lang == "ar":
+            if lang == "ph":
                 limit_msg = (
-                    "🛑 **لقد تجاوزت الحد المسموح به!**\n"
+                    "🛑 **Lumampas ka sa pinapayagang limitasyon!**\n"
                     "━━━━━━━━━━━━━━━━━━━\n"
-                    "⚠️ يمكنك استخراج **10 حسابات كحد أقصى كل 30 دقيقة**.\n"
-                    f"⏳ يرجى الانتظار لمدة: **`{info}`** لكي تتمكن من توليد حسابات جديدة."
+                    "⚠️ Maaari kang kumuha ng **maximum na 10 account bawat 30 minuto**.\n"
+                    f"⏳ Mangyaring maghintay ng: **`{info}`** upang makabuo ng mga bagong account."
                 )
             else:
                 limit_msg = (
@@ -648,7 +607,7 @@ async def process_device_selection(callback: types.CallbackQuery):
             )
             return
 
-    wait_text = "⏳ **جاري فحص الحسابات وسحب جلسة نظيفة...**\n🔄 *يرجى الانتظار لحظات...*" if lang == "ar" else "⏳ **Checking stock and extracting a clean session...**\n🔄 *Please wait a moment...*"
+    wait_text = "⏳ **Sinusuri ang stock at kumukuha ng malinis na sesyon...**\n🔄 *Mangyaring maghintay ng sandali...*" if lang == "ph" else "⏳ **Checking stock and extracting a clean session...**\n🔄 *Please wait a moment...*"
     await callback.message.edit_text(wait_text, parse_mode="Markdown")
 
     _, token = await asyncio.to_thread(get_working_cookie_and_token_sync, is_vip)
@@ -657,11 +616,11 @@ async def process_device_selection(callback: types.CallbackQuery):
         target_dir = VIP_COOKIES_DIR if is_vip else COOKIES_DIR
         stock = get_stock_count(target_dir)
         
-        if lang == "ar":
+        if lang == "ph":
             no_stock_msg = (
-                "❌ **عذراً، نفذت الحسابات الخاصة بهذا القسم حالياً!**\n\n"
-                f"📦 المخزون المتبقي: **`{stock}`** حساب\n"
-                "⚠️ *يرجى المحاولة لاحقاً.*"
+                "❌ **Pasensya na, ang mga account para sa seksyong ito ay kasalukuyang walang stock!**\n\n"
+                f"📦 Natitirang Stock: **`{stock}`** mga account\n"
+                "⚠️ *Mangyaring subukang muli mamaya.*"
             )
         else:
             no_stock_msg = (
@@ -681,13 +640,13 @@ async def process_device_selection(callback: types.CallbackQuery):
     if device == "phone":
         url = f"https://netflix.com/unsupported?nftoken={token}"
         instructions = (
-            "📱 **تعليمات التشغيل (هاتف محمول):**\n"
+            "📱 **Mga Tagubilin (Mobile):**\n"
             "━━━━━━━━━━━━━━━━━━━\n"
-            "⚠️ **تنبيه هام:** يجب استخدام متصفح **Google Chrome**!\n\n"
-            "1️⃣ اضغط على الزر بالأسفل لفتح الرابط أو نسخه.\n"
-            "2️⃣ افتح تطبيق **Google Chrome** والصق الرابط.\n"
-            "3️⃣ اضغط **Open App** للدخول لتطبيق نتفليكس فوراً!"
-        ) if lang == "ar" else (
+            "⚠️ **Mahalaga:** Gamitin ang browser na **Google Chrome**!\n\n"
+            "1️⃣ I-click ang button sa ibaba para buksan o kopyahin ang link.\n"
+            "2️⃣ Buksan ang **Google Chrome** at i-paste ang link.\n"
+            "3️⃣ I-click ang **Open App** upang agad na pumasok sa Netflix!"
+        ) if lang == "ph" else (
             "📱 **Instructions (Mobile):**\n"
             "━━━━━━━━━━━━━━━━━━━\n"
             "⚠️ **Important:** Use **Google Chrome** browser!\n\n"
@@ -698,12 +657,12 @@ async def process_device_selection(callback: types.CallbackQuery):
     elif device == "pc":
         url = f"https://www.netflix.com/login?nftoken={token}"
         instructions = (
-            "💻 **تعليمات التشغيل (كمبيوتر):**\n"
+            "💻 **Mga Tagubilin (PC / Laptop):**\n"
             "━━━━━━━━━━━━━━━━━━━\n"
-            "⚠️ **تنبيه هام:** يفضل استخدام متصفح **Google Chrome**.\n\n"
-            "1️⃣ افتح الرابط أدناه عبر المتصفح.\n"
-            "2️⃣ سيسجل الحساب دخولك تلقائياً وبدون كلمة مرور!"
-        ) if lang == "ar" else (
+            "⚠️ **Mahalaga:** Mas mabuting gamitin ang **Google Chrome**.\n\n"
+            "1️⃣ Buksan ang link sa ibaba sa pamamagitan ng iyong browser.\n"
+            "2️⃣ Awtomatiko kang mag-a-login nang walang password!"
+        ) if lang == "ph" else (
             "💻 **Instructions (PC / Laptop):**\n"
             "━━━━━━━━━━━━━━━━━━━\n"
             "⚠️ **Important:** Use **Google Chrome**.\n\n"
@@ -713,11 +672,11 @@ async def process_device_selection(callback: types.CallbackQuery):
     elif device == "tv":
         url = f"https://netflix.com/tv2?nftoken={token}"
         instructions = (
-            "📺 **تعليمات التشغيل (تلفاز ذكي - Smart TV):**\n"
+            "📺 **Mga Tagubilin (Smart TV):**\n"
             "━━━━━━━━━━━━━━━━━━━\n"
-            "1️⃣ افتح نتفليكس على التلفاز وخذ كود التنشيط.\n"
-            "2️⃣ افتح الرابط أدناه في متصفح هاتفك أو حاسوبك لإتمام الربط."
-        ) if lang == "ar" else (
+            "1️⃣ Buksan ang Netflix sa iyong TV at kunin ang activation code.\n"
+            "2️⃣ Buksan ang link sa ibaba sa browser ng iyong telepono o PC upang maiugnay ito."
+        ) if lang == "ph" else (
             "📺 **Instructions (Smart TV):**\n"
             "━━━━━━━━━━━━━━━━━━━\n"
             "1️⃣ Open Netflix on TV and get the code.\n"
@@ -725,20 +684,20 @@ async def process_device_selection(callback: types.CallbackQuery):
         )
 
     if is_vip:
-        remaining_text = " (حساب VIP بريميوم - سحب بلا حدود 🌟)" if lang == "ar" else " (VIP Premium Account - Unlimited Access 🌟)"
+        remaining_text = " (VIP Premium Account - Unlimited Access 🌟)" if lang == "ph" else " (VIP Premium Account - Unlimited Access 🌟)"
     else:
         _, remaining_or_time = check_user_limit(user_id)
-        remaining_text = f" رصيدك المتبقي خلال الـ 30 دقيقة القادمة: `{remaining_or_time}` حسابات." if lang == "ar" else f" Your remaining balance in the next 30m: `{remaining_or_time}` accounts."
+        remaining_text = f" Ang iyong natitirang balanse sa susunod na 30m: `{remaining_or_time}` mga account." if lang == "ph" else f" Your remaining balance in the next 30m: `{remaining_or_time}` accounts."
 
-    link_title = "🌐 فتح الرابط في المتصفح" if lang == "ar" else "🌐 Open Link in Browser"
-    btn_another = "🔄 توليد حساب آخر" if lang == "ar" else "🔄 Generate Another"
+    link_title = "🌐 Buksan ang Link sa Browser" if lang == "ph" else "🌐 Open Link in Browser"
+    btn_another = "🔄 Bumuo ng Iba Pa" if lang == "ph" else "🔄 Generate Another"
 
     response_msg = (
         f"{instructions}\n\n"
-        f"🔗 **رابط الدخول المباشر (Direct Access Link):**\n"
+        f"🔗 **Direct Access Link:**\n"
         f"`{url}`\n\n"
         f"🛡️{remaining_text}\n"
-        "🔒 *الرابط آمن ومخصص لك وحدك.*"
+        "🔒 *Ang link na ito ay ligtas at para lamang sa iyo.*"
     )
     
     builder = InlineKeyboardBuilder()
